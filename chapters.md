@@ -73,6 +73,25 @@ These other `Elements` belong to the Matroska DVD menu system and are only used 
 - Soft link: In this complex system `Ordered Editions` are required and a `Chapter CODEC` MUST interpret the `ChapProcess` of all chapters.
 - Medium link: `Ordered Editions` are used in a normal way and can be combined with the `ChapterSegmentUID` element which establishes a link to an other Matroska file/Segment.
 
+## Matroska Ordered-Chapters
+
+If an Edition's `EditionFlagDefault Flag` is set to `true`, the Matroska Ordered-Chapters feature is activated and the Matroska `Medium-Linking` system can be used (expect if the `ChapProcessCodecID Element` is set to 1, then the Matroska DVD-Menu system is used).
+A playback application MUST create a new virtual timeline with new virtual chapter marks while reading all ordered chapters.
+
+### Simple Ordered-Chapters
+
+Simple Ordered-Chapters are used if the chapter element `ChapterSegmentUID` not present or the value is the SegmentUID of the file/Segment. The new virtual timeline will be constructed from the file/Segment itself only.
+
+### Linked Ordered-Chapters
+
+If the chapter element `ChapterSegmentUID` is present and the SegmentUID is from another file/Segment then `Linked Ordered Chapters` are used. The new virtual timeline will be now constructed from more than one file/Segment.
+
+### Nested Ordered-Chapters
+
+- Hier fehlt noch etwas Wissen und einige Entscheidungen
+- momentan state
+- my state
+
 
 ## Menu features
 
