@@ -33,12 +33,12 @@ If an `EditionFlagDefault Flag` is set to `true`, this `Edition` MUST be used. W
 
 The `EditionFlagOrdered Flag` is a significant feature.
 
-If the `EditionFlagOrdered Flag` is set to `false`, "Matroska Simple-Chapters" are used and only the `ChapterTimeStart` of a chapter is used as chapter mark to jump to the predefined point in the time line.
+If the `EditionFlagOrdered Flag` is set to `false`, "Matroska Simple-Chapters" are used and only the `ChapterTimeStart` of a chapter is used as chapter mark to jump to the predefined point in the timeline.
 Many chapter elements like `ChapterTimeEnd` or `ChapterSegmentUID` SHOULD be now ignored by the playback application.
 All these elements are now informational only.
 
 If the `EditionFlagOrdered Flag` is set to `true`, the "Matroska Ordered-Chapters" feature is activated.
-A playback application must now also read the `ChapterTimeEnd Element`, and a new virtual time line is used.
+A playback application must now also read the `ChapterTimeEnd Element`, and a new virtual timeline is used.
 
 The following list shows the different usage of `Chapter Elements` between an ordered and non-ordered `Edition`.
 
@@ -69,9 +69,9 @@ These other `Elements` belong to the Matroska DVD menu system and are only used 
 
 ##### Ordered-Edition and Matroska Segment-Linking
 
-- Hard link: The "Matroska Ordered-Chapters" overwrites the Hard-Linking system.
-- Soft link: In this complex system `Ordered Editions` are required and a `Chapter CODEC` MUST interpret the `ChapProcess` of all chapters.
-- Medium link: `Ordered Editions` are used in a normal way and can be combined with the `ChapterSegmentUID` element which establishes a link to an other Matroska file/Segment.
+- Hard Linking: The "Matroska Ordered-Chapters" overwrites the Hard-Linking system.
+- Soft Linking: In this complex system `Ordered Editions` are required and a `Chapter CODEC` MUST interpret the `ChapProcess` of all chapters.
+- Medium Linking: `Ordered Editions` are used in a normal way and can be combined with the `ChapterSegmentUID` element which establishes a link to an other Matroska file/Segment.
 
 ## Matroska Ordered-Chapters
 
