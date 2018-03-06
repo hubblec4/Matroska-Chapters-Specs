@@ -374,7 +374,3 @@ In this example an (existing) album is split into different chapters, and one of
     <EditionFlagHidden>0</EditionFlagHidden>
   </EditionEntry>
 </Chapters>
-```
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3NjI1MTMzMF19
--->
