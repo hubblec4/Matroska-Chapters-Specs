@@ -6,7 +6,7 @@ The Matroska Chapters system can consist of`Simple Chapters` where a chapter sta
 ## EditionEntry
 
 Contains all information about a segment `Edition`.
-More then one `Edition` is allowed 
+More then one `Edition`  allowed 
 
 
 ### EditionUID
@@ -393,7 +393,7 @@ In this example an (existing) album is split into different chapters, and one of
   </EditionEntry>
 </Chapters>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0NzI5NzkwMCwtMjA3OTE3OTM2NiwtMT
-E1NTIwNTA5NCwxMzA3NTU4MjcwLDEzNjcyMzcyNTksLTE2MzI3
-MzcwMTMsOTg5OTExNDA4LC0xNDI0NTg3NDUyXX0=
+eyJoaXN0b3J5IjpbMTE0OTIyMzcwLC0yMDc5MTc5MzY2LC0xMT
+U1MjA1MDk0LDEzMDc1NTgyNzAsMTM2NzIzNzI1OSwtMTYzMjcz
+NzAxMyw5ODk5MTE0MDgsLTE0MjQ1ODc0NTJdfQ==
 -->
