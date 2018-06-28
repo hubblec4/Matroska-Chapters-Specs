@@ -14,7 +14,8 @@ A unique ID to identify the `Edition`. It's useful for tagging an `Edition`.
 
 ### EditionFlagHidden
 
-If the `EditionFlagHidden` is set to `true` 
+`EditionFlagHidden` is set to `true`
+The `Edition` is now hidden not 
 
 The `EditionFlagHidden Flag` behaves similarly to the `ChapterFlagHidden Flag`: if `EditionFlagHidden` is set to `true`, its `Child ChapterAtoms Elements` MUST also be interpreted as if their `ChapterFlagHidden` is also set to `true`, regardless of their own `ChapterFlagHidden Flags`. If `EditionFlagHidden` is toggled by a `Control Track` to `false`, the `ChapterFlagHidden Flags` of the `Child ChapterAtoms Elements` SHALL determine whether the `ChapterAtom` is hidden or not.
 
@@ -394,8 +395,8 @@ In this example an (existing) album is split into different chapters, and one of
   </EditionEntry>
 </Chapters>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzU4MDg5NzEwLDQ5MjMwMzk3NSwtMjA3OT
-E3OTM2NiwtMTE1NTIwNTA5NCwxMzA3NTU4MjcwLDEzNjcyMzcy
-NTksLTE2MzI3MzcwMTMsOTg5OTExNDA4LC0xNDI0NTg3NDUyXX
-0=
+eyJoaXN0b3J5IjpbLTE2NzY1NDkwNDAsMzU4MDg5NzEwLDQ5Mj
+MwMzk3NSwtMjA3OTE3OTM2NiwtMTE1NTIwNTA5NCwxMzA3NTU4
+MjcwLDEzNjcyMzcyNTksLTE2MzI3MzcwMTMsOTg5OTExNDA4LC
+0xNDI0NTg3NDUyXX0=
 -->
