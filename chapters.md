@@ -5,11 +5,11 @@ The Matroska Chapters system can consist of`Simple Chapters` where a chapter sta
 
 ## EditionEntry
 
-EditionEntry 
-
 Contains all information about a segment edition.
 
 ### EditionUID
+
+A unique ID to identify the `Edition`. It's useful for tagging an `Edition`.
 
 ### EditionFlagHidden
 
@@ -391,7 +391,7 @@ In this example an (existing) album is split into different chapters, and one of
   </EditionEntry>
 </Chapters>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDU5Nzg1OTQzLC0yMDc5MTc5MzY2LC0xMT
-U1MjA1MDk0LDEzMDc1NTgyNzAsMTM2NzIzNzI1OSwtMTYzMjcz
-NzAxMyw5ODk5MTE0MDgsLTE0MjQ1ODc0NTJdfQ==
+eyJoaXN0b3J5IjpbMTA5MDk5NjY3MiwtMjA3OTE3OTM2NiwtMT
+E1NTIwNTA5NCwxMzA3NTU4MjcwLDEzNjcyMzcyNTksLTE2MzI3
+MzcwMTMsOTg5OTExNDA4LC0xNDI0NTg3NDUyXX0=
 -->
