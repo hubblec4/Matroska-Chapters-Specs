@@ -1,6 +1,6 @@
 # Chapters
 
-The Matroska Chapters system can consist of`Simple Chapters` where a chapter start time is used as marker in the timeline. The system can be more complex with `Ordered Chapters`
+The Matroska Chapters system can consist of`Simple Chapters` where a chapter start time is used as marker in the timeline only. The system can be more complex with `Ordered Chapters` or `Nested Chapters`
 
 ## Edition entry
 
@@ -386,6 +386,6 @@ In this example an (existing) album is split into different chapters, and one of
   </EditionEntry>
 </Chapters>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0NzAwMDgzMiwxMzY3MjM3MjU5LC0xNj
+eyJoaXN0b3J5IjpbMTMwNzU1ODI3MCwxMzY3MjM3MjU5LC0xNj
 MyNzM3MDEzLDk4OTkxMTQwOCwtMTQyNDU4NzQ1Ml19
 -->
