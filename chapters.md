@@ -1,6 +1,6 @@
 # Chapters
 
-With he Matroska Chapters can 
+The Matroska Chapters system can be simple but also a complex
 
 ## Edition entry
 
@@ -386,6 +386,6 @@ In this example an (existing) album is split into different chapters, and one of
   </EditionEntry>
 </Chapters>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMzNjAwMzU0NCwtMTYzMjczNzAxMyw5OD
-k5MTE0MDgsLTE0MjQ1ODc0NTJdfQ==
+eyJoaXN0b3J5IjpbMjg2OTk5Njg5LC0xNjMyNzM3MDEzLDk4OT
+kxMTQwOCwtMTQyNDU4NzQ1Ml19
 -->
