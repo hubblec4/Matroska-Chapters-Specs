@@ -25,13 +25,14 @@ In this case all `ChapterAtoms Elements` MUST also be interpreted as if their `C
 The `EditionFlagHidden Flag` behaves similarly to the `ChapterFlagHidden Flag`: if `EditionFlagHidden` is set to `true`, its `Child ChapterAtoms Elements` MUST also be interpreted as if their `ChapterFlagHidden` is also set to `true`, regardless of their own `ChapterFlagHidden Flags`. If `EditionFlagHidden` is toggled by a `Control Track` to `false`, the `ChapterFlagHidden Flags` of the `Child ChapterAtoms Elements` SHALL determine whether the `ChapterAtom` is hidden or not.
 
 
-### EditionFlagDefault
+
+#### EditionFlagDefault
 
 It is RECOMMENDED that no more than one `Edition` have an `EditionFlagDefault Flag` set to `true`. The first `Edition` with both the `EditionFlagDefault Flag` set to `true` and the `EditionFlagHidden Flag` set to `false` is the `Default Edition`. When all `EditionFlagDefault Flags` are set to `false`, then the first `Edition` with the `EditionFlagHidden Flag` is set to `false`, MUST be played by the Matroska Player.
 
-### EditionFlagOrdered
+#### EditionFlagOrdered
 
-The `EditionFlagOrdered Flag` is a significant feature as it enables an `Edition` of `Ordered Chapters` which defines and arranges a virtual timeline rather than simply labeling points within the timeline. For example, with `Editions` of `Ordered Chapters` a single `Matroska file` can present multiple edits of a film without duplicating content. Alternatively if a videotape is digitized in full, one `Ordered Edition` could present the full content (including colorbars, countdown, slate, a feature presentation, and black frames), while another `Edition` of `Ordered Chapters` can use `Chapters` that only mark the intended presentation with the colorbars and other ancillary visual information excluded. If an `Edition` of `Ordered Chapters` is enabled then the `Matroska Player` MUST play those Chapters in their stored order from the timecode marked in the `ChapterTimeStart Element` to the timecode marked in to `ChapterTimeEnd Element`.
+The `EditionFlagOrdered Flag` is a significant feature as it enables an `Edition` of `Ordered Chapters` which defines and arranges a virtual timeline rather than simply labeling points within the timeline. For example, with `Editions` of `Ordered Chapters` a single `Matroska file` can present multiple edits of a film without duplicating content. Alternatively if a videotape is digitized in full, one `Ordered Edition` could present the full content (including colorbars, countdown, slate, a feature presentation, and black frames), while another `Edition` of `Ordered Chapters` can use `Chapters` that only mark the intended presentation with the colorbars and other ancillary visual information excluded. If an `Edition` of `Ordered Chapters` is enabled then the `Matroska Player` MUST play those Chapters in their stored order from the timestamp marked in the `ChapterTimeStart Element` to the timestamp marked in to `ChapterTimeEnd Element`.
 
 If the `EditionFlagOrdered Flag` is set to `false`, `Simple Chapters` are used and only the `ChapterTimeStart` of a `Chapter` is used as chapter mark to jump to the predefined point in the timeline. With `Simple Chapters`, a `Matroska Player` MUST ignore certain `Chapter Elements`. All these elements are now informational only.
 
@@ -62,53 +63,13 @@ Track/TrackTranslate               |   -   |  X
 
 These other `Elements` belong to the Matroska DVD menu system and are only used when the `ChapProcessCodecID Element` is set to 1.
 
-#### Ordered-Edition and Matroska Segment-Linking
+##### Ordered-Edition and Matroska Segment-Linking
 
 - Hard Linking: `Ordered-Chapters` supersedes the `Hard Linking`.
 - Soft Linking: In this complex system `Ordered Chapters` are REQUIRED and a `Chapter CODEC` MUST interpret the `ChapProcess` of all chapters.
 - Medium Linking: `Ordered Chapters` are used in a normal way and can be combined with the `ChapterSegmentUID` element which establishes a link to another Matroska file/Segment.
 
-See [the section on the `Linked Segments`](#linked-segments) for more information about `Hard Linking`, `Soft Linking` and `Medium Linking`.
-
-
-
-
-## Edition and Chapter Flags
-
-### Chapter Flags
-
-Two `Chapter Flags` are defined to describe the behavior of the `ChapterAtom Element`: `ChapterFlagHidden` and `ChapterFlagEnabled`.
-
-If a `ChapterAtom Element` is the `Child Element` of another `ChapterAtom Element` with a `Chapter Flag` set to `true`, then the `Child ChapterAtom Element` MUST be interpreted as having its same `Chapter Flag` set to `true`. If a `ChapterAtom Element` is the `Child Element` of another `ChapterAtom Element` with a `Chapter Flag` set to `false` or if the `ChapterAtom Element` does not have a `ChapterAtom Element` as its `Parent Element`, then it MUST be interpreted according to its own `Chapter Flag`.
-
-As an example, consider a `Parent ChapterAtom Element` that has its `ChapterFlagHidden` set to `true` and also contains two child `ChapterAtoms`, the first with `ChapterFlagHidden` set to `true` and the second with `ChapterFlagHidden` either set to `false` or not present at all (in which case the default value of the Element applies, which is `false`). Since the parent `ChapterAtom` has its `ChapterFlagHidden` set to `true` then all of its children `ChapterAtoms` MUST also be interpreted as if their `ChapterFlagHidden` is also set to `true`. However, if a `Control Track` toggles the parent's `ChapterFlagHidden` flag to `false`, then only the parent `ChapterAtom` and its second child `ChapterAtom` MUST be interpreted as if `ChapterFlagHidden` is set to `false`. The first child `ChapterAtom` which has the `ChapterFlagHidden` flag set to `true` retains its value until its value is toggled to `false` by a `Control Track`.
-
-### Edition Flags
-
-Three `Edition Flags` are defined to describe the behavior of the `EditionEntry Element`: `EditionFlagHidden`, `EditionFlagDefault` and `EditionFlagOrdered`.
-
-
-
-
-
-## Matroska Ordered-Chapters
-
-If an Edition's `EditionFlagOrdered Flag` is set to `true`, the Matroska Ordered-Chapters feature is activated and the Matroska `Medium-Linking` system can be used (expect if the `ChapProcessCodecID Element` is set to 1, then the Matroska DVD-Menu system is used).
-A playback application MUST create a new virtual timeline with new virtual chapter marks while reading all ordered chapters.
-
-### Simple Ordered-Chapters
-
-Simple Ordered-Chapters are used if the chapter element `ChapterSegmentUID` not present or the value is the SegmentUID of the file/Segment. The new virtual timeline will be constructed from the file/Segment itself only.
-
-### Linked Ordered-Chapters
-
-If the chapter element `ChapterSegmentUID` is present and the SegmentUID is from another file/Segment then `Linked Ordered Chapters` are used. The new virtual timeline will be now constructed from more than one file/Segment.
-
-### Nested Ordered-Chapters
-
-
-
-
+See [the section on the `Linked Segments`](#linked-segments)) for more information about `Hard Linking`, `Soft Linking` and `Medium Linking`.
 
 ## Menu features
 
@@ -167,7 +128,7 @@ If the level specified in ChapProcessPrivate is a PGC (0x20), there is an octet 
 
 The next 4 following octets correspond to the [User Operation flags](http://dvd.sourceforge.net/dvdinfo/uops.html) in the standard PGC. When a bit is set, the command SHOULD be disabled.
 
-ChapProcessData contains the pre/post/cell commands in binary format as there are stored on a DVD. There is just an octet preceeding these data to specify the number of commands in the element. As follows: [# of commands(1)][command 1 (8)][command 2 (8)][command 3 (8)].
+ChapProcessData contains the pre/post/cell commands in binary format as there are stored on a DVD. There is just an octet preceding these data to specify the number of commands in the element. As follows: [# of commands(1)][command 1 (8)][command 2 (8)][command 3 (8)].
 
 More information on the DVD commands and format on [DVD-replica](http://www.dvd-replica.com/DVD/), where we got most of the info about it. You can also get information on DVD from [the DVDinfo project](http://dvd.sourceforge.net/dvdinfo/).
 
@@ -399,10 +360,12 @@ In this example an (existing) album is split into different chapters, and one of
     <EditionFlagHidden>0</EditionFlagHidden>
   </EditionEntry>
 </Chapters>
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxNzg0MTcwOSwtMTUxNTkxMTM3NSw5MT
-MxODk3MzMsLTE2ODA5MTM1NjEsLTE1MzgxNjY0MDUsLTIxMjY5
-MTA4MiwzNTgwODk3MTAsNDkyMzAzOTc1LC0yMDc5MTc5MzY2LC
-0xMTU1MjA1MDk0LDEzMDc1NTgyNzAsMTM2NzIzNzI1OSwtMTYz
-MjczNzAxMyw5ODk5MTE0MDgsLTE0MjQ1ODc0NTJdfQ==
+eyJoaXN0b3J5IjpbLTEyNTIxNDg0NTIsMTcxNzg0MTcwOSwtMT
+UxNTkxMTM3NSw5MTMxODk3MzMsLTE2ODA5MTM1NjEsLTE1Mzgx
+NjY0MDUsLTIxMjY5MTA4MiwzNTgwODk3MTAsNDkyMzAzOTc1LC
+0yMDc5MTc5MzY2LC0xMTU1MjA1MDk0LDEzMDc1NTgyNzAsMTM2
+NzIzNzI1OSwtMTYzMjczNzAxMyw5ODk5MTE0MDgsLTE0MjQ1OD
+c0NTJdfQ==
 -->
