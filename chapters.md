@@ -5,7 +5,7 @@ The Matroska Chapters system can consist of`Simple Chapters` where a chapter sta
 
 ## Edition entry
 
-An `Edition`
+An `Edition` 
 
 ### EditionUID
 
@@ -389,7 +389,7 @@ In this example an (existing) album is split into different chapters, and one of
   </EditionEntry>
 </Chapters>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTMyMDQ0NzMsLTIwNzkxNzkzNjYsLT
+eyJoaXN0b3J5IjpbLTE4NTY4NDIwMTEsLTIwNzkxNzkzNjYsLT
 ExNTUyMDUwOTQsMTMwNzU1ODI3MCwxMzY3MjM3MjU5LC0xNjMy
 NzM3MDEzLDk4OTkxMTQwOCwtMTQyNDU4NzQ1Ml19
 -->
