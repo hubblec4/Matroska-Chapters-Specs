@@ -6,14 +6,15 @@ The Matroska Chapters system can consist of`Simple Chapters` where a chapter sta
 ## EditionEntry
 
 Contains all information about a segment `Edition`.
-Multiple `Editions` are allowed. 
-
+Multiple `Editions` are allowed.
 
 ### EditionUID
 
 A unique ID to identify the `Edition`. It's useful for tagging an `Edition`.
 
 ### EditionFlagHidden
+
+
 
 The `EditionFlagHidden Flag` behaves similarly to the `ChapterFlagHidden Flag`: if `EditionFlagHidden` is set to `true`, its `Child ChapterAtoms Elements` MUST also be interpreted as if their `ChapterFlagHidden` is also set to `true`, regardless of their own `ChapterFlagHidden Flags`. If `EditionFlagHidden` is toggled by a `Control Track` to `false`, the `ChapterFlagHidden Flags` of the `Child ChapterAtoms Elements` SHALL determine whether the `ChapterAtom` is hidden or not.
 
@@ -393,7 +394,7 @@ In this example an (existing) album is split into different chapters, and one of
   </EditionEntry>
 </Chapters>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDkyNTc5NTEsLTIwNzkxNzkzNjYsLT
-ExNTUyMDUwOTQsMTMwNzU1ODI3MCwxMzY3MjM3MjU5LC0xNjMy
-NzM3MDEzLDk4OTkxMTQwOCwtMTQyNDU4NzQ1Ml19
+eyJoaXN0b3J5IjpbMTcwNDg4ODUxMSwtMjA3OTE3OTM2NiwtMT
+E1NTIwNTA5NCwxMzA3NTU4MjcwLDEzNjcyMzcyNTksLTE2MzI3
+MzcwMTMsOTg5OTExNDA4LC0xNDI0NTg3NDUyXX0=
 -->
