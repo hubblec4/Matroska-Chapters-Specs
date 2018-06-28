@@ -1,18 +1,7 @@
 # Chapters
 
-## Edition and Chapter Flags
+## Edition entry
 
-### Chapter Flags
-
-Two `Chapter Flags` are defined to describe the behavior of the `ChapterAtom Element`: `ChapterFlagHidden` and `ChapterFlagEnabled`.
-
-If a `ChapterAtom Element` is the `Child Element` of another `ChapterAtom Element` with a `Chapter Flag` set to `true`, then the `Child ChapterAtom Element` MUST be interpreted as having its same `Chapter Flag` set to `true`. If a `ChapterAtom Element` is the `Child Element` of another `ChapterAtom Element` with a `Chapter Flag` set to `false` or if the `ChapterAtom Element` does not have a `ChapterAtom Element` as its `Parent Element`, then it MUST be interpreted according to its own `Chapter Flag`.
-
-As an example, consider a `Parent ChapterAtom Element` that has its `ChapterFlagHidden` set to `true` and also contains two child `ChapterAtoms`, the first with `ChapterFlagHidden` set to `true` and the second with `ChapterFlagHidden` either set to `false` or not present at all (in which case the default value of the Element applies, which is `false`). Since the parent `ChapterAtom` has its `ChapterFlagHidden` set to `true` then all of its children `ChapterAtoms` MUST also be interpreted as if their `ChapterFlagHidden` is also set to `true`. However, if a `Control Track` toggles the parent's `ChapterFlagHidden` flag to `false`, then only the parent `ChapterAtom` and its second child `ChapterAtom` MUST be interpreted as if `ChapterFlagHidden` is set to `false`. The first child `ChapterAtom` which has the `ChapterFlagHidden` flag set to `true` retains its value until its value is toggled to `false` by a `Control Track`.
-
-### Edition Flags
-
-Three `Edition Flags` are defined to describe the behavior of the `EditionEntry Element`: `EditionFlagHidden`, `EditionFlagDefault` and `EditionFlagOrdered`.
 
 
 #### EditionFlagHidden
@@ -64,6 +53,26 @@ These other `Elements` belong to the Matroska DVD menu system and are only used 
 - Medium Linking: `Ordered Chapters` are used in a normal way and can be combined with the `ChapterSegmentUID` element which establishes a link to another Matroska file/Segment.
 
 See [the section on the `Linked Segments`](#linked-segments) for more information about `Hard Linking`, `Soft Linking` and `Medium Linking`.
+
+
+
+
+## Edition and Chapter Flags
+
+### Chapter Flags
+
+Two `Chapter Flags` are defined to describe the behavior of the `ChapterAtom Element`: `ChapterFlagHidden` and `ChapterFlagEnabled`.
+
+If a `ChapterAtom Element` is the `Child Element` of another `ChapterAtom Element` with a `Chapter Flag` set to `true`, then the `Child ChapterAtom Element` MUST be interpreted as having its same `Chapter Flag` set to `true`. If a `ChapterAtom Element` is the `Child Element` of another `ChapterAtom Element` with a `Chapter Flag` set to `false` or if the `ChapterAtom Element` does not have a `ChapterAtom Element` as its `Parent Element`, then it MUST be interpreted according to its own `Chapter Flag`.
+
+As an example, consider a `Parent ChapterAtom Element` that has its `ChapterFlagHidden` set to `true` and also contains two child `ChapterAtoms`, the first with `ChapterFlagHidden` set to `true` and the second with `ChapterFlagHidden` either set to `false` or not present at all (in which case the default value of the Element applies, which is `false`). Since the parent `ChapterAtom` has its `ChapterFlagHidden` set to `true` then all of its children `ChapterAtoms` MUST also be interpreted as if their `ChapterFlagHidden` is also set to `true`. However, if a `Control Track` toggles the parent's `ChapterFlagHidden` flag to `false`, then only the parent `ChapterAtom` and its second child `ChapterAtom` MUST be interpreted as if `ChapterFlagHidden` is set to `false`. The first child `ChapterAtom` which has the `ChapterFlagHidden` flag set to `true` retains its value until its value is toggled to `false` by a `Control Track`.
+
+### Edition Flags
+
+Three `Edition Flags` are defined to describe the behavior of the `EditionEntry Element`: `EditionFlagHidden`, `EditionFlagDefault` and `EditionFlagOrdered`.
+
+
+
 
 
 ## Matroska Ordered-Chapters
@@ -375,5 +384,6 @@ In this example an (existing) album is split into different chapters, and one of
   </EditionEntry>
 </Chapters>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTg5OTExNDA4LC0xNDI0NTg3NDUyXX0=
+eyJoaXN0b3J5IjpbLTE3MzMxNDI0NDAsOTg5OTExNDA4LC0xND
+I0NTg3NDUyXX0=
 -->
