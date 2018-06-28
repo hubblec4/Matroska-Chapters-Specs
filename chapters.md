@@ -15,7 +15,7 @@ A unique ID to identify the `Edition`. It's useful for tagging an `Edition`.
 ### EditionFlagHidden
 
 `EditionFlagHidden` is set to `false` this means the `Edition` is visible and displayed in a `Matroska Player`.
-If `EditionFlagHidden` is toggled by a `Control Track` to `true`, the `ChapterFlagHidden Flags` of the `Child ChapterAtoms Elements` SHALL determine whether the `ChapterAtom` is hidden or not.
+If `EditionFlagHidden` is toggled by a `Control Track` to `true`, all `ChapterAtoms Elements` MUST also be interpreted as if their `ChapterFlagHidden` is also set to `true`, regardless of their own `ChapterFlagHidden Flags`.
 
 `EditionFlagHidden` is set to `true`
 The `Edition` is now hidden and SHOULD not be available in a `Matroska Player`.
@@ -364,7 +364,7 @@ In this example an (existing) album is split into different chapters, and one of
 </Chapters>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQwMjg1MjczLDExMTEzODU5ODUsLTI5Mj
+eyJoaXN0b3J5IjpbMzg0ODE5MjA0LDExMTEzODU5ODUsLTI5Mj
 Y1MzczNywtMjA5NjQ5NDkzOCwxNzE3ODQxNzA5LC0xNTE1OTEx
 Mzc1LDkxMzE4OTczMywtMTY4MDkxMzU2MSwtMTUzODE2NjQwNS
 wtMjEyNjkxMDgyLDM1ODA4OTcxMCw0OTIzMDM5NzUsLTIwNzkx
