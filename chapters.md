@@ -1,5 +1,7 @@
 # Chapters
 
+With he Matroska Chapters can 
+
 ## Edition entry
 
 ### EditionUID
@@ -384,6 +386,6 @@ In this example an (existing) album is split into different chapters, and one of
   </EditionEntry>
 </Chapters>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzI3MzcwMTMsOTg5OTExNDA4LC0xND
-I0NTg3NDUyXX0=
+eyJoaXN0b3J5IjpbLTMzNjAwMzU0NCwtMTYzMjczNzAxMyw5OD
+k5MTE0MDgsLTE0MjQ1ODc0NTJdfQ==
 -->
