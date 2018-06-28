@@ -19,6 +19,7 @@ The `Edition` is visible and displayed in a `Matroska Player`.
 
 `EditionFlagHidden` is set to `true`
 The `Edition` is now hidden and should not be available in a `Matroska Player`.
+It exists one case where hidden `Edition` MUST be played: When all 
 
 
 The `EditionFlagHidden Flag` behaves similarly to the `ChapterFlagHidden Flag`: if `EditionFlagHidden` is set to `true`, its `Child ChapterAtoms Elements` MUST also be interpreted as if their `ChapterFlagHidden` is also set to `true`, regardless of their own `ChapterFlagHidden Flags`. If `EditionFlagHidden` is toggled by a `Control Track` to `false`, the `ChapterFlagHidden Flags` of the `Child ChapterAtoms Elements` SHALL determine whether the `ChapterAtom` is hidden or not.
@@ -399,9 +400,8 @@ In this example an (existing) album is split into different chapters, and one of
   </EditionEntry>
 </Chapters>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDA4MjkzOTcsLTE1MzgxNjY0MDUsLT
-IxMjY5MTA4MiwzNTgwODk3MTAsNDkyMzAzOTc1LC0yMDc5MTc5
-MzY2LC0xMTU1MjA1MDk0LDEzMDc1NTgyNzAsMTM2NzIzNzI1OS
-wtMTYzMjczNzAxMyw5ODk5MTE0MDgsLTE0MjQ1ODc0NTJdfQ==
-
+eyJoaXN0b3J5IjpbLTg5MTk5ODM1LC0xNTM4MTY2NDA1LC0yMT
+I2OTEwODIsMzU4MDg5NzEwLDQ5MjMwMzk3NSwtMjA3OTE3OTM2
+NiwtMTE1NTIwNTA5NCwxMzA3NTU4MjcwLDEzNjcyMzcyNTksLT
+E2MzI3MzcwMTMsOTg5OTExNDA4LC0xNDI0NTg3NDUyXX0=
 -->
