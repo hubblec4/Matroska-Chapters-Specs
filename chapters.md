@@ -1,6 +1,6 @@
 # Chapters
 
-The Matroska Chapters system can consist of`Simple Chapters` where a chapter start time is used as marker in the timeline only. The system can be more complex with `Ordered Chapters` where an end time stamp is additionally used or much more complex with `Linked Chapters`. The Matroska Chapters system can also have a menu structure, borrowed from the DVD menu system, or have it's own Native Matroska menu structure.
+The Matroska Chapters system can consist of`Simple Chapters` where a chapter start time is used as marker in the timeline only. The system can be more complex with `Ordered Chapters` where a chapter end time stamp is additionally used or much more complex with `Linked Chapters`. The Matroska Chapters system can also have a menu structure, borrowed from the DVD menu system, or have it's own Native Matroska menu structure.
 
 
 ## EditionEntry
@@ -362,10 +362,10 @@ In this example an (existing) album is split into different chapters, and one of
 </Chapters>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTY0OTQ5MzgsMTcxNzg0MTcwOSwtMT
-UxNTkxMTM3NSw5MTMxODk3MzMsLTE2ODA5MTM1NjEsLTE1Mzgx
-NjY0MDUsLTIxMjY5MTA4MiwzNTgwODk3MTAsNDkyMzAzOTc1LC
-0yMDc5MTc5MzY2LC0xMTU1MjA1MDk0LDEzMDc1NTgyNzAsMTM2
-NzIzNzI1OSwtMTYzMjczNzAxMyw5ODk5MTE0MDgsLTE0MjQ1OD
-c0NTJdfQ==
+eyJoaXN0b3J5IjpbLTI5MjY1MzczNywtMjA5NjQ5NDkzOCwxNz
+E3ODQxNzA5LC0xNTE1OTExMzc1LDkxMzE4OTczMywtMTY4MDkx
+MzU2MSwtMTUzODE2NjQwNSwtMjEyNjkxMDgyLDM1ODA4OTcxMC
+w0OTIzMDM5NzUsLTIwNzkxNzkzNjYsLTExNTUyMDUwOTQsMTMw
+NzU1ODI3MCwxMzY3MjM3MjU5LC0xNjMyNzM3MDEzLDk4OTkxMT
+QwOCwtMTQyNDU4NzQ1Ml19
 -->
