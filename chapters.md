@@ -15,7 +15,7 @@ A unique ID to identify the `Edition`. It's useful for tagging an `Edition`.
 ### EditionFlagHidden
 
 `EditionFlagHidden` is set to `false`
-The `Edition` is not hidden and shown in a `Matroska Player`.
+The `Edition` is visible and shown in a `Matroska Player`.
 
 `EditionFlagHidden` is set to `true`
 The `Edition` is now hidden and should not be available in a `Matroska Player`.
@@ -399,8 +399,8 @@ In this example an (existing) album is split into different chapters, and one of
   </EditionEntry>
 </Chapters>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjY5MTA4MiwzNTgwODk3MTAsNDkyMz
-AzOTc1LC0yMDc5MTc5MzY2LC0xMTU1MjA1MDk0LDEzMDc1NTgy
-NzAsMTM2NzIzNzI1OSwtMTYzMjczNzAxMyw5ODk5MTE0MDgsLT
-E0MjQ1ODc0NTJdfQ==
+eyJoaXN0b3J5IjpbLTE1MzgxNjY0MDUsLTIxMjY5MTA4MiwzNT
+gwODk3MTAsNDkyMzAzOTc1LC0yMDc5MTc5MzY2LC0xMTU1MjA1
+MDk0LDEzMDc1NTgyNzAsMTM2NzIzNzI1OSwtMTYzMjczNzAxMy
+w5ODk5MTE0MDgsLTE0MjQ1ODc0NTJdfQ==
 -->
