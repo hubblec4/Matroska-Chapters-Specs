@@ -26,11 +26,11 @@ The `EditionFlagHidden Flag` behaves similarly to the `ChapterFlagHidden Flag`: 
 
 
 
-#### EditionFlagDefault
+### EditionFlagDefault
 
 It is RECOMMENDED that no more than one `Edition` have an `EditionFlagDefault Flag` set to `true`. The first `Edition` with both the `EditionFlagDefault Flag` set to `true` and the `EditionFlagHidden Flag` set to `false` is the `Default Edition`. When all `EditionFlagDefault Flags` are set to `false`, then the first `Edition` with the `EditionFlagHidden Flag` is set to `false`, MUST be played by the Matroska Player.
 
-#### EditionFlagOrdered
+### EditionFlagOrdered
 
 The `EditionFlagOrdered Flag` is a significant feature as it enables an `Edition` of `Ordered Chapters` which defines and arranges a virtual timeline rather than simply labeling points within the timeline. For example, with `Editions` of `Ordered Chapters` a single `Matroska file` can present multiple edits of a film without duplicating content. Alternatively if a videotape is digitized in full, one `Ordered Edition` could present the full content (including colorbars, countdown, slate, a feature presentation, and black frames), while another `Edition` of `Ordered Chapters` can use `Chapters` that only mark the intended presentation with the colorbars and other ancillary visual information excluded. If an `Edition` of `Ordered Chapters` is enabled then the `Matroska Player` MUST play those Chapters in their stored order from the timestamp marked in the `ChapterTimeStart Element` to the timestamp marked in to `ChapterTimeEnd Element`.
 
@@ -362,7 +362,7 @@ In this example an (existing) album is split into different chapters, and one of
 </Chapters>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTIxNDg0NTIsMTcxNzg0MTcwOSwtMT
+eyJoaXN0b3J5IjpbLTIwOTY0OTQ5MzgsMTcxNzg0MTcwOSwtMT
 UxNTkxMTM3NSw5MTMxODk3MzMsLTE2ODA5MTM1NjEsLTE1Mzgx
 NjY0MDUsLTIxMjY5MTA4MiwzNTgwODk3MTAsNDkyMzAzOTc1LC
 0yMDc5MTc5MzY2LC0xMTU1MjA1MDk0LDEzMDc1NTgyNzAsMTM2
