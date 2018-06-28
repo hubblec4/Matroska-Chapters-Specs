@@ -68,7 +68,7 @@ See [the section on the `Linked Segments`](#linked-segments) for more informatio
 
 ## Matroska Ordered-Chapters
 
-If an Edition's `EditionFlagDefault Flag` is set to `true`, the Matroska Ordered-Chapters feature is activated and the Matroska `Medium-Linking` system can be used (expect if the `ChapProcessCodecID Element` is set to 1, then the Matroska DVD-Menu system is used).
+If an Edition's `EditionFlagOrdered Flag` is set to `true`, the Matroska Ordered-Chapters feature is activated and the Matroska `Medium-Linking` system can be used (expect if the `ChapProcessCodecID Element` is set to 1, then the Matroska DVD-Menu system is used).
 A playback application MUST create a new virtual timeline with new virtual chapter marks while reading all ordered chapters.
 
 ### Simple Ordered-Chapters
@@ -375,5 +375,5 @@ In this example an (existing) album is split into different chapters, and one of
   </EditionEntry>
 </Chapters>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjQ1ODc0NTJdfQ==
+eyJoaXN0b3J5IjpbOTg5OTExNDA4LC0xNDI0NTg3NDUyXX0=
 -->
