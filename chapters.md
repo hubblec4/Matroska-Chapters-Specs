@@ -15,11 +15,13 @@ A unique ID to identify the `Edition`. It's useful for tagging an `Edition`.
 ### EditionFlagHidden
 
 `EditionFlagHidden` is set to `false` this means the `Edition` is visible and displayed in a `Matroska Player`.
+If `EditionFlagHidden` is toggled by a `Control Track` to `true`, the `ChapterFlagHidden Flags` of the `Child ChapterAtoms Elements` SHALL determine whether the `ChapterAtom` is hidden or not.
 
 `EditionFlagHidden` is set to `true`
 The `Edition` is now hidden and SHOULD not be available in a `Matroska Player`.
 It exists one case where a hidden `Edition` MUST be played: All `Editions` `EditionFlagHidden Flag` are set to true, so there is no visible `Edition`.
 In this case all `ChapterAtoms Elements` MUST also be interpreted as if their `ChapterFlagHidden` is also set to `true`, regardless of their own `ChapterFlagHidden Flags`.
+If `EditionFlagHidden` is toggled by a `Control Track` to `false`, the `ChapterFlagHidden Flags` of the `Child ChapterAtoms Elements` SHALL determine whether the `ChapterAtom` is hidden or not.
 
 
 The `EditionFlagHidden Flag` behaves similarly to the `ChapterFlagHidden Flag`: if `EditionFlagHidden` is set to `true`, its `Child ChapterAtoms Elements` MUST also be interpreted as if their `ChapterFlagHidden` is also set to `true`, regardless of their own `ChapterFlagHidden Flags`. 
@@ -362,11 +364,11 @@ In this example an (existing) album is split into different chapters, and one of
 </Chapters>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwMzM5ODEzMCwxMTExMzg1OTg1LC0yOT
-I2NTM3MzcsLTIwOTY0OTQ5MzgsMTcxNzg0MTcwOSwtMTUxNTkx
-MTM3NSw5MTMxODk3MzMsLTE2ODA5MTM1NjEsLTE1MzgxNjY0MD
-UsLTIxMjY5MTA4MiwzNTgwODk3MTAsNDkyMzAzOTc1LC0yMDc5
-MTc5MzY2LC0xMTU1MjA1MDk0LDEzMDc1NTgyNzAsMTM2NzIzNz
-I1OSwtMTYzMjczNzAxMyw5ODk5MTE0MDgsLTE0MjQ1ODc0NTJd
-fQ==
+eyJoaXN0b3J5IjpbODQwMjg1MjczLDExMTEzODU5ODUsLTI5Mj
+Y1MzczNywtMjA5NjQ5NDkzOCwxNzE3ODQxNzA5LC0xNTE1OTEx
+Mzc1LDkxMzE4OTczMywtMTY4MDkxMzU2MSwtMTUzODE2NjQwNS
+wtMjEyNjkxMDgyLDM1ODA4OTcxMCw0OTIzMDM5NzUsLTIwNzkx
+NzkzNjYsLTExNTUyMDUwOTQsMTMwNzU1ODI3MCwxMzY3MjM3Mj
+U5LC0xNjMyNzM3MDEzLDk4OTkxMTQwOCwtMTQyNDU4NzQ1Ml19
+
 -->
