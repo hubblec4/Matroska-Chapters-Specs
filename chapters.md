@@ -1,6 +1,6 @@
 # Chapters
 
-The Matroska Chapters system can be `Simple Chapters` but also a complex
+The Matroska Chapters system can consist of`Simple Chapters` where a chapter start time is used as marker in the timeline. but also a complex
 
 ## Edition entry
 
@@ -386,6 +386,6 @@ In this example an (existing) album is split into different chapters, and one of
   </EditionEntry>
 </Chapters>
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2NzIzNzI1OSwtMTYzMjczNzAxMyw5OD
-k5MTE0MDgsLTE0MjQ1ODc0NTJdfQ==
+eyJoaXN0b3J5IjpbODA2OTk5ODY2LDEzNjcyMzcyNTksLTE2Mz
+I3MzcwMTMsOTg5OTExNDA4LC0xNDI0NTg3NDUyXX0=
 -->
