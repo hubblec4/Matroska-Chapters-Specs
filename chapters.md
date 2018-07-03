@@ -43,6 +43,7 @@ Edition 2|   true   |  true	|
 Edition 3|   false  |  true	|  X
 
 If the `Default Edition's` `EditionFlagHidden Flag` is set to `true`, then a `Matroska Player` SHOULD play this `Edition` only if all other `Edition` `EditionFlagHidden Flags` are set to `true`. 
+
 Edition | FlagHidden | FlagDefault | used Edition
 ------------|-------|-------|--
 Edition 1|   true   |  	false	|  
@@ -57,6 +58,7 @@ Edition 2|   true    |  true	|
 Edition 3|   false   |  false	|  X
 
 If no `Default Edition` is specified a `Matroska Player` MUST play the first `Edition` with the `EditionFlagHidden Flag` is set to `false`. 
+
 Edition | FlagHidden | FlagDefault | used Edition
 ------------|-------|-------|--
 Edition 1|   true   |  	false	|  
@@ -64,6 +66,7 @@ Edition 2|   false  |  false	|  X
 Edition 3|   false  |  false	|  
 
 When all `EditionFlagHidden Flags` are set to `true`, then the first `Edition` MUST be played by the `Matroska Player`.
+
 Edition | FlagHidden | FlagDefault | used Edition
 ------------|-------|-------|--
 Edition 1|   true   |  false	|  X
@@ -132,6 +135,7 @@ A timestamp of the end of `Chapter` with nanosecond accuracy.  The timestamp is 
 The end timestamp is used when the `Edition's EditionFlagOrdered Flag` is set to `true`.
 A `Matroska Player` have to calculate a `Chapter` duration by the difference of end timestamp and start timestamp.  
 The end timestamp MUST be greater than the start timestamp otherwise the `Chapter` duration would be negative which is illegal. If a `Chapter` duration 0 this `Chapter` will be ignored by a `Matroska Player`.
+
 Chapter    | Start timestamp | End timestamp | Duration
 -----------|-----------------|---------------|------
 Chapter 1  |   0   			 |  1000000000   | 1000000000
@@ -440,9 +444,9 @@ In this example an (existing) album is split into different chapters, and one of
 </Chapters>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5NjM5NDQxOSwxMjExNjI1MDE0LDQzND
-g1MTk0MywtMTI4OTUxOTAwMSwxMDUwNDM2ODE1LDE5MDQ4OTY0
-MzcsMTE1MDczNTM5NiwxNjE4NTQ3OTE0LC0yMDAzNTE0MDU5LC
-01NjYzNDUyOTYsLTYyNTU4MzYwNCwzMTIwOTI1NSwtNzY2NTY0
-ODIwLDE3NjE5MTczODNdfQ==
+eyJoaXN0b3J5IjpbNDYwMDIyOTg5LC01OTYzOTQ0MTksMTIxMT
+YyNTAxNCw0MzQ4NTE5NDMsLTEyODk1MTkwMDEsMTA1MDQzNjgx
+NSwxOTA0ODk2NDM3LDExNTA3MzUzOTYsMTYxODU0NzkxNCwtMj
+AwMzUxNDA1OSwtNTY2MzQ1Mjk2LC02MjU1ODM2MDQsMzEyMDky
+NTUsLTc2NjU2NDgyMCwxNzYxOTE3MzgzXX0=
 -->
