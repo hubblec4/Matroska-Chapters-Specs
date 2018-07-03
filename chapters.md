@@ -122,7 +122,7 @@ A `Chapter` element can be used recursively. Such a child `Chapter` is called `N
 
 ### ChapterUID
 
-The `ChapterUID` is a mandatory Matroska element with a unique ID and a range from 1 to 18446744073709551615.
+The `ChapterUID` is a mandatory Matroska element with a unique ID with a range from 1 to 18446744073709551615.
 
 ### ChapterStringUID
 A unique string ID to identify the `Chapter`.  
@@ -477,11 +477,11 @@ In this example an (existing) album is split into different chapters, and one of
 </Chapters>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDA1MzEzNTcsLTczNzQwODI1MywxMT
-gzMDEyNTYxLC0xNjQ4ODQ3OTE2LDE1MTc0MzE5NDcsMTU3NzI0
-NDQ1Myw5NTg1MzYwNDYsLTcxNDE2NzU4NiwtMTM3NzE2NDQ4Ny
-wtMTc5NTEyNTAzNywtODc3MTk5NzQ1LDExNDU1NzI2OTMsLTYz
-MTU2OTE1OSw4NDE4MjQ4NDUsLTU5NjM5NDQxOSwxMjExNjI1MD
-E0LDQzNDg1MTk0MywtMTI4OTUxOTAwMSwxMDUwNDM2ODE1LDE5
-MDQ4OTY0MzddfQ==
+eyJoaXN0b3J5IjpbLTk4NzMyNjEyNCwtMTA0MDUzMTM1NywtNz
+M3NDA4MjUzLDExODMwMTI1NjEsLTE2NDg4NDc5MTYsMTUxNzQz
+MTk0NywxNTc3MjQ0NDUzLDk1ODUzNjA0NiwtNzE0MTY3NTg2LC
+0xMzc3MTY0NDg3LC0xNzk1MTI1MDM3LC04NzcxOTk3NDUsMTE0
+NTU3MjY5MywtNjMxNTY5MTU5LDg0MTgyNDg0NSwtNTk2Mzk0ND
+E5LDEyMTE2MjUwMTQsNDM0ODUxOTQzLC0xMjg5NTE5MDAxLDEw
+NTA0MzY4MTVdfQ==
 -->
