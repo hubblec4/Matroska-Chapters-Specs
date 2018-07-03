@@ -28,6 +28,8 @@ In this case all `ChapterAtoms Elements` MUST also be interpreted as if their `C
 It is RECOMMENDED that no more than one `Edition` have an `EditionFlagDefault Flag` set to `true`. The first `Edition` with both the `EditionFlagDefault Flag` set to `true` and the `EditionFlagHidden Flag` set to `false` is the `Default Edition`.  
 If the `Default Edition's` `EditionFlagHidden Flag` is set to `true`, then a `Matroska Player` SHOULD play this `Edition` only if all other `Editions` `EditionFlagHidden Flags` are set to `true`. Exists an `Edition`  with `EditionFlagHidden Flag` set to `true`, the `Matroska Player` MUST play this `Edition`.
 
+If no `Default Edition` is specified 
+
 When all `EditionFlagDefault Flags` are set to `false`, then the first `Edition` with the `EditionFlagHidden Flag` is set to `false`, MUST be played by the `Matroska Player`.
 
 ### EditionFlagOrdered
@@ -362,11 +364,11 @@ In this example an (existing) album is split into different chapters, and one of
 </Chapters>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg5MTI2MzM3NSwxNjgxMzcxMzM2LDE1ND
-A5MDc4NTcsMTE1MTEwMzY3NiwtMTA4MDE1ODMzMCwxODg1Mjk5
-MjU3LDE2NTM0MDU1NjQsLTg0MTEwNTYwLDEwMjkyODk5NDksOT
-g0ODY3OTc1LDE3MTE5NjY5NywxMTY0OTE3NDUwLDExMTEzODU5
-ODUsLTI5MjY1MzczNywtMjA5NjQ5NDkzOCwxNzE3ODQxNzA5LC
-0xNTE1OTExMzc1LDkxMzE4OTczMywtMTY4MDkxMzU2MSwtMTUz
-ODE2NjQwNV19
+eyJoaXN0b3J5IjpbNTQxMDI2NjU0LDE4OTEyNjMzNzUsMTY4MT
+M3MTMzNiwxNTQwOTA3ODU3LDExNTExMDM2NzYsLTEwODAxNTgz
+MzAsMTg4NTI5OTI1NywxNjUzNDA1NTY0LC04NDExMDU2MCwxMD
+I5Mjg5OTQ5LDk4NDg2Nzk3NSwxNzExOTY2OTcsMTE2NDkxNzQ1
+MCwxMTExMzg1OTg1LC0yOTI2NTM3MzcsLTIwOTY0OTQ5MzgsMT
+cxNzg0MTcwOSwtMTUxNTkxMTM3NSw5MTMxODk3MzMsLTE2ODA5
+MTM1NjFdfQ==
 -->
