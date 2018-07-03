@@ -151,8 +151,8 @@ In the Matroska menu systems (Native,DVD) is the usage of an end timestamp depen
 
 The `ChapterFlagHidden Flag` works a bit different as the `EditionFlagHidden Flag`. Each `Chapters ChapterFlagHidden Flag` works independent. 
 
-Chapter / ChapterFlagHidden | False | True | visible
---------------------------------|-------|-------|--
+Chapter + Nested Chapter | ChapterFlagHidden | visible
+--------------------------------|------- ----|--
 Chapter 1                       |   X   |  		|  yes
 Chapter 2                       |       |  X	|  no
 
@@ -458,11 +458,11 @@ In this example an (existing) album is split into different chapters, and one of
 </Chapters>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA2NjE4ODI1NiwtMTM3NzE2NDQ4NywtMT
-c5NTEyNTAzNywtODc3MTk5NzQ1LDExNDU1NzI2OTMsLTYzMTU2
-OTE1OSw4NDE4MjQ4NDUsLTU5NjM5NDQxOSwxMjExNjI1MDE0LD
-QzNDg1MTk0MywtMTI4OTUxOTAwMSwxMDUwNDM2ODE1LDE5MDQ4
-OTY0MzcsMTE1MDczNTM5NiwxNjE4NTQ3OTE0LC0yMDAzNTE0MD
-U5LC01NjYzNDUyOTYsLTYyNTU4MzYwNCwzMTIwOTI1NSwtNzY2
-NTY0ODIwXX0=
+eyJoaXN0b3J5IjpbODU0MDg1MTE4LC0xMzc3MTY0NDg3LC0xNz
+k1MTI1MDM3LC04NzcxOTk3NDUsMTE0NTU3MjY5MywtNjMxNTY5
+MTU5LDg0MTgyNDg0NSwtNTk2Mzk0NDE5LDEyMTE2MjUwMTQsND
+M0ODUxOTQzLC0xMjg5NTE5MDAxLDEwNTA0MzY4MTUsMTkwNDg5
+NjQzNywxMTUwNzM1Mzk2LDE2MTg1NDc5MTQsLTIwMDM1MTQwNT
+ksLTU2NjM0NTI5NiwtNjI1NTgzNjA0LDMxMjA5MjU1LC03NjY1
+NjQ4MjBdfQ==
 -->
