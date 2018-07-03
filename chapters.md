@@ -161,6 +161,8 @@ Chapter 2                | true				 | no
 +Nested Chapter 2.1      | false      		 | yes
 +Nested Chapter 2.2      | true      		 | no
 
+### ChapterFlagEnabled
+
 
 
 
@@ -455,11 +457,11 @@ In this example an (existing) album is split into different chapters, and one of
 </Chapters>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTU4NTM2MDQ2LC03MTQxNjc1ODYsLTEzNz
-cxNjQ0ODcsLTE3OTUxMjUwMzcsLTg3NzE5OTc0NSwxMTQ1NTcy
-NjkzLC02MzE1NjkxNTksODQxODI0ODQ1LC01OTYzOTQ0MTksMT
-IxMTYyNTAxNCw0MzQ4NTE5NDMsLTEyODk1MTkwMDEsMTA1MDQz
-NjgxNSwxOTA0ODk2NDM3LDExNTA3MzUzOTYsMTYxODU0NzkxNC
-wtMjAwMzUxNDA1OSwtNTY2MzQ1Mjk2LC02MjU1ODM2MDQsMzEy
-MDkyNTVdfQ==
+eyJoaXN0b3J5IjpbMTU3NzI0NDQ1Myw5NTg1MzYwNDYsLTcxND
+E2NzU4NiwtMTM3NzE2NDQ4NywtMTc5NTEyNTAzNywtODc3MTk5
+NzQ1LDExNDU1NzI2OTMsLTYzMTU2OTE1OSw4NDE4MjQ4NDUsLT
+U5NjM5NDQxOSwxMjExNjI1MDE0LDQzNDg1MTk0MywtMTI4OTUx
+OTAwMSwxMDUwNDM2ODE1LDE5MDQ4OTY0MzcsMTE1MDczNTM5Ni
+wxNjE4NTQ3OTE0LC0yMDAzNTE0MDU5LC01NjYzNDUyOTYsLTYy
+NTU4MzYwNF19
 -->
