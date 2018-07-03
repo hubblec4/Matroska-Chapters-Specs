@@ -18,6 +18,10 @@ A unique ID with a range from 1 to 18446744073709551615 can be used to identify 
 When the `EditionFlagHidden Flag` is set to `false` means the `Edition` is visible and displayed in a `Matroska Player`.
 All `ChapterAtoms Elements` MUST be interpreted of their own `ChapterFlagHidden Flags`.
 
+Chapter elements / ordered Edition | False | True
+-----------------------------------|-------|-------
+ChapterUID                         |   X   |  X
+
 When the `EditionFlagHidden Flag` is set to `true` the `Edition` is hidden and SHOULD not be selectablly in a `Matroska Player`.
 It exists one case where a hidden `Edition` MUST be played:  
 All `Editions` `EditionFlagHidden Flags` are set to true, so there is no visible `Edition`.  
@@ -362,5 +366,6 @@ In this example an (existing) album is split into different chapters, and one of
 </Chapters>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2NjU2NDgyMCwxNzYxOTE3MzgzXX0=
+eyJoaXN0b3J5IjpbMzEyMDkyNTUsLTc2NjU2NDgyMCwxNzYxOT
+E3MzgzXX0=
 -->
