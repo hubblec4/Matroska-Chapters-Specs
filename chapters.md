@@ -127,7 +127,8 @@ The end timestamp is used when the `Edition's EditionFlagOrdered Flag` is set to
 A `Matroska Player` have to calculate a `Chapter` duration by the difference of end timestamp and start timestamp.
 Chapter  | Start timestamp | End timestamp | Duration
 -----------|-------|-------|------
-Chapter 1  |   0   |  1000000000 |
+Chapter 1  |   0   |  1000000000 | 1000000000
+Chapter 1  |   Chapter 1  |   0   |  1000000000 | 1000000000   |  1000000000 | 1000000000
 
 
 
@@ -423,7 +424,7 @@ In this example an (existing) album is split into different chapters, and one of
 </Chapters>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4MjgwNTQwMiwxMDUwNDM2ODE1LDE5MD
+eyJoaXN0b3J5IjpbMTMwNDE3OTUyNywxMDUwNDM2ODE1LDE5MD
 Q4OTY0MzcsMTE1MDczNTM5NiwxNjE4NTQ3OTE0LC0yMDAzNTE0
 MDU5LC01NjYzNDUyOTYsLTYyNTU4MzYwNCwzMTIwOTI1NSwtNz
 Y2NTY0ODIwLDE3NjE5MTczODNdfQ==
