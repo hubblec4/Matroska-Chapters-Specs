@@ -122,8 +122,8 @@ A not scaled Timestamp of the start of `Chapter` with nanosecond accuracy.
 The start time stamps are equal to the chapter markers in the timeline.
 
 ### ChapterTimeEnd
-Timestamp of the end of `Chapter` with nanosecond accuracy.  The timestamp is excluded and also not scaled.
-The start time stamps are equal to the chapter markers in the timeline.
+A Timestamp of the end of `Chapter` with nanosecond accuracy.  The timestamp is excluded and also not scaled.
+The end timestamp is used when the `Edition EditionFlagOrd`
 
 
 
@@ -418,8 +418,8 @@ In this example an (existing) album is split into different chapters, and one of
 </Chapters>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MTYwMTUyNTUsMTA1MDQzNjgxNSwxOT
-A0ODk2NDM3LDExNTA3MzUzOTYsMTYxODU0NzkxNCwtMjAwMzUx
-NDA1OSwtNTY2MzQ1Mjk2LC02MjU1ODM2MDQsMzEyMDkyNTUsLT
-c2NjU2NDgyMCwxNzYxOTE3MzgzXX0=
+eyJoaXN0b3J5IjpbMjA2NTI4NjE2LDEwNTA0MzY4MTUsMTkwND
+g5NjQzNywxMTUwNzM1Mzk2LDE2MTg1NDc5MTQsLTIwMDM1MTQw
+NTksLTU2NjM0NTI5NiwtNjI1NTgzNjA0LDMxMjA5MjU1LC03Nj
+Y1NjQ4MjAsMTc2MTkxNzM4M119
 -->
