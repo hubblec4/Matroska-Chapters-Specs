@@ -36,6 +36,11 @@ Chapter 2                       |       |  X	|  no
 ### EditionFlagDefault
 
 It is RECOMMENDED that no more than one `Edition` have an `EditionFlagDefault Flag` set to `true`. The first `Edition` with both the `EditionFlagDefault Flag` set to `true` and the `EditionFlagHidden Flag` set to `false` is the `Default Edition`.
+Edition | FlagHidden | FlagDefault | used Edition
+------------|-------|-------|--
+Edition 1|   true   |  	true	|  
+Edition 2|   true    |  true	|  X
+Edition 3|   true    |  true	|  
 
 If the `Default Edition's` `EditionFlagHidden Flag` is set to `true`, then a `Matroska Player` SHOULD play this `Edition` only if all other `Edition` `EditionFlagHidden Flags` are set to `true`. 
 Edition | FlagHidden | FlagDefault | used Edition
@@ -435,8 +440,8 @@ In this example an (existing) album is split into different chapters, and one of
 </Chapters>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzM0MTkwOTIsLTEyODk1MTkwMDEsMT
-A1MDQzNjgxNSwxOTA0ODk2NDM3LDExNTA3MzUzOTYsMTYxODU0
-NzkxNCwtMjAwMzUxNDA1OSwtNTY2MzQ1Mjk2LC02MjU1ODM2MD
-QsMzEyMDkyNTUsLTc2NjU2NDgyMCwxNzYxOTE3MzgzXX0=
+eyJoaXN0b3J5IjpbLTU1ODc4Mjk3MCwtMTI4OTUxOTAwMSwxMD
+UwNDM2ODE1LDE5MDQ4OTY0MzcsMTE1MDczNTM5NiwxNjE4NTQ3
+OTE0LC0yMDAzNTE0MDU5LC01NjYzNDUyOTYsLTYyNTU4MzYwNC
+wzMTIwOTI1NSwtNzY2NTY0ODIwLDE3NjE5MTczODNdfQ==
 -->
