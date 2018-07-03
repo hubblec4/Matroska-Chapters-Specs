@@ -163,7 +163,8 @@ Chapter 2                | true				 | no
 
 ### ChapterFlagEnabled
 
-If the `ChapterFlagEnabled Flag` is set to `true` a `Matroska Player` MUST use this `Chapter`.
+If the `ChapterFlagEnabled Flag` is set to `true` a `Matroska Player` MUST use this `Chapter` otherwise the `Matroska Player` MUST ignore this `Chapter` and all his `Nested Chapters`.
+
 
 
 
@@ -458,11 +459,11 @@ In this example an (existing) album is split into different chapters, and one of
 </Chapters>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxNzQzMTk0NywxNTc3MjQ0NDUzLDk1OD
-UzNjA0NiwtNzE0MTY3NTg2LC0xMzc3MTY0NDg3LC0xNzk1MTI1
-MDM3LC04NzcxOTk3NDUsMTE0NTU3MjY5MywtNjMxNTY5MTU5LD
-g0MTgyNDg0NSwtNTk2Mzk0NDE5LDEyMTE2MjUwMTQsNDM0ODUx
-OTQzLC0xMjg5NTE5MDAxLDEwNTA0MzY4MTUsMTkwNDg5NjQzNy
-wxMTUwNzM1Mzk2LDE2MTg1NDc5MTQsLTIwMDM1MTQwNTksLTU2
-NjM0NTI5Nl19
+eyJoaXN0b3J5IjpbLTE2MjU0MzEyMDQsMTUxNzQzMTk0NywxNT
+c3MjQ0NDUzLDk1ODUzNjA0NiwtNzE0MTY3NTg2LC0xMzc3MTY0
+NDg3LC0xNzk1MTI1MDM3LC04NzcxOTk3NDUsMTE0NTU3MjY5My
+wtNjMxNTY5MTU5LDg0MTgyNDg0NSwtNTk2Mzk0NDE5LDEyMTE2
+MjUwMTQsNDM0ODUxOTQzLC0xMjg5NTE5MDAxLDEwNTA0MzY4MT
+UsMTkwNDg5NjQzNywxMTUwNzM1Mzk2LDE2MTg1NDc5MTQsLTIw
+MDM1MTQwNTldfQ==
 -->
