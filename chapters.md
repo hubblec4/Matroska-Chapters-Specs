@@ -108,7 +108,7 @@ See [the section on the `Linked Segments`](#linked-segments)) for more informati
 
 ## ChapterAtom
 The `ChapterAtom` is also called a `Chapter`.
-A `Chapter` element can be used recursively and such a .  
+A `Chapter` element can be used recursively. Such a child `Chapter` is called `Nested Chapter`.  
 
 ### ChapterUID
 
@@ -435,8 +435,8 @@ In this example an (existing) album is split into different chapters, and one of
 </Chapters>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0NzUxODg3OSwtMTI4OTUxOTAwMSwxMD
-UwNDM2ODE1LDE5MDQ4OTY0MzcsMTE1MDczNTM5NiwxNjE4NTQ3
-OTE0LC0yMDAzNTE0MDU5LC01NjYzNDUyOTYsLTYyNTU4MzYwNC
-wzMTIwOTI1NSwtNzY2NTY0ODIwLDE3NjE5MTczODNdfQ==
+eyJoaXN0b3J5IjpbNzg5Njg3ODM4LC0xMjg5NTE5MDAxLDEwNT
+A0MzY4MTUsMTkwNDg5NjQzNywxMTUwNzM1Mzk2LDE2MTg1NDc5
+MTQsLTIwMDM1MTQwNTksLTU2NjM0NTI5NiwtNjI1NTgzNjA0LD
+MxMjA5MjU1LC03NjY1NjQ4MjAsMTc2MTkxNzM4M119
 -->
