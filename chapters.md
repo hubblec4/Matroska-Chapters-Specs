@@ -174,10 +174,10 @@ For `Ordered Chapters` a `Matroska Player` MUST not use the duration(and other i
 Chapter + Nested Chapter | ChapterFlagEnabled | used
 -------------------------|-------------------|--
 Chapter 1                | true 		     | yes
-+Nested Chapter 1.1      | false      		 | yes
-+Nested Chapter 1.2      | true      		 | no
++Nested Chapter 1.1      | true      		 | yes
++Nested Chapter 1.2      | false      		 | no
 ++Nested Chapter 1.2.1   | true      		 | no
-++Nested Chapter 1.2.2   | true      		 | no
+++Nested Chapter 1.2.2   | false      		 | no
 Chapter 2                | true				 | no
 +Nested Chapter 2.1      | false      		 | yes
 +Nested Chapter 2.2      | true      		 | no
@@ -475,11 +475,11 @@ In this example an (existing) album is split into different chapters, and one of
 </Chapters>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3MjYxOTE2OCwtNzM3NDA4MjUzLDExOD
-MwMTI1NjEsLTE2NDg4NDc5MTYsMTUxNzQzMTk0NywxNTc3MjQ0
-NDUzLDk1ODUzNjA0NiwtNzE0MTY3NTg2LC0xMzc3MTY0NDg3LC
-0xNzk1MTI1MDM3LC04NzcxOTk3NDUsMTE0NTU3MjY5MywtNjMx
-NTY5MTU5LDg0MTgyNDg0NSwtNTk2Mzk0NDE5LDEyMTE2MjUwMT
-QsNDM0ODUxOTQzLC0xMjg5NTE5MDAxLDEwNTA0MzY4MTUsMTkw
-NDg5NjQzN119
+eyJoaXN0b3J5IjpbMTQyOTM3MzczLC03Mzc0MDgyNTMsMTE4Mz
+AxMjU2MSwtMTY0ODg0NzkxNiwxNTE3NDMxOTQ3LDE1NzcyNDQ0
+NTMsOTU4NTM2MDQ2LC03MTQxNjc1ODYsLTEzNzcxNjQ0ODcsLT
+E3OTUxMjUwMzcsLTg3NzE5OTc0NSwxMTQ1NTcyNjkzLC02MzE1
+NjkxNTksODQxODI0ODQ1LC01OTYzOTQ0MTksMTIxMTYyNTAxNC
+w0MzQ4NTE5NDMsLTEyODk1MTkwMDEsMTA1MDQzNjgxNSwxOTA0
+ODk2NDM3XX0=
 -->
