@@ -106,6 +106,8 @@ These other `Elements` belong to the Matroska DVD menu system and are only used 
 
 See [the section on the `Linked Segments`](#linked-segments)) for more information about `Hard Linking`, `Soft Linking` and `Medium Linking`.
 
+## ChapterAtom
+
 ## Menu features
 
 The menu features are handled like a _chapter codec_. That means each codec has a type, some private data and some data in the chapters.
@@ -397,7 +399,7 @@ In this example an (existing) album is split into different chapters, and one of
 </Chapters>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxODU0NzkxNCwtMjAwMzUxNDA1OSwtNT
-Y2MzQ1Mjk2LC02MjU1ODM2MDQsMzEyMDkyNTUsLTc2NjU2NDgy
-MCwxNzYxOTE3MzgzXX0=
+eyJoaXN0b3J5IjpbMjAxODg5OTQwMCwxNjE4NTQ3OTE0LC0yMD
+AzNTE0MDU5LC01NjYzNDUyOTYsLTYyNTU4MzYwNCwzMTIwOTI1
+NSwtNzY2NTY0ODIwLDE3NjE5MTczODNdfQ==
 -->
