@@ -157,6 +157,8 @@ Chapter 1                | false 		     | yes
 +Nested Chapter 1.1      | false      		 | yes
 +Nested Chapter 1.2      | true      		 | no
 Chapter 2                | true				 | no
++Nested Chapter 2.1      | false      		 | yes
++Nested Chapter 2.2      | true      		 | no
 
 Two `Chapter Flags` are defined to describe the behavior of the `ChapterAtom Element`: `ChapterFlagHidden` and `ChapterFlagEnabled`.
 
@@ -460,7 +462,7 @@ In this example an (existing) album is split into different chapters, and one of
 </Chapters>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3NzAyMTk5OCwtMTM3NzE2NDQ4NywtMT
+eyJoaXN0b3J5IjpbLTcxNDE2NzU4NiwtMTM3NzE2NDQ4NywtMT
 c5NTEyNTAzNywtODc3MTk5NzQ1LDExNDU1NzI2OTMsLTYzMTU2
 OTE1OSw4NDE4MjQ4NDUsLTU5NjM5NDQxOSwxMjExNjI1MDE0LD
 QzNDg1MTk0MywtMTI4OTUxOTAwMSwxMDUwNDM2ODE1LDE5MDQ4
