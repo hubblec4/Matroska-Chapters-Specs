@@ -165,7 +165,7 @@ Chapter 2                | true				 | no
 
 If the `ChapterFlagEnabled Flag` is set to `true` a `Matroska Player` MUST use this `Chapter`.  
 For `Simple Chapters` with `ChapterFlagHidden Flag` set to `false` the `Chapter` is visible as chapter mark in the timeline.
-With `Ordered Chapters` 
+With `Ordered Chapters` a `Matroska Player` MUST 
 
  otherwise the `Matroska Player` MUST ignore this `Chapter` and all his `Nested Chapters`.  
 
@@ -464,7 +464,7 @@ In this example an (existing) album is split into different chapters, and one of
 </Chapters>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTYzNTEyMDgsLTE2NDg4NDc5MTYsMT
+eyJoaXN0b3J5IjpbLTE1Mzc2Mjg1MTEsLTE2NDg4NDc5MTYsMT
 UxNzQzMTk0NywxNTc3MjQ0NDUzLDk1ODUzNjA0NiwtNzE0MTY3
 NTg2LC0xMzc3MTY0NDg3LC0xNzk1MTI1MDM3LC04NzcxOTk3ND
 UsMTE0NTU3MjY5MywtNjMxNTY5MTU5LDg0MTgyNDg0NSwtNTk2
