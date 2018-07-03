@@ -118,7 +118,8 @@ A unique string ID to identify the `Chapter`.
 Use for [WebVTT cue identifier storage](http://dev.w3.org/html5/webvtt/#webvtt-cue-identifier).
 
 ### ChapterTimeStart
-Timestamp of the start of `Chapter` with nanosecond accuracy.
+Timestamp of the start of `Chapter` with nanosecond accuracy.  
+The start time stamps are equal to the chapter markers in the timeline.
 
 
 
@@ -415,8 +416,8 @@ In this example an (existing) album is split into different chapters, and one of
 </Chapters>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1MDQzNjgxNSwxOTA0ODk2NDM3LDExNT
-A3MzUzOTYsMTYxODU0NzkxNCwtMjAwMzUxNDA1OSwtNTY2MzQ1
-Mjk2LC02MjU1ODM2MDQsMzEyMDkyNTUsLTc2NjU2NDgyMCwxNz
-YxOTE3MzgzXX0=
+eyJoaXN0b3J5IjpbLTY3NDE3NTc2MiwxMDUwNDM2ODE1LDE5MD
+Q4OTY0MzcsMTE1MDczNTM5NiwxNjE4NTQ3OTE0LC0yMDAzNTE0
+MDU5LC01NjYzNDUyOTYsLTYyNTU4MzYwNCwzMTIwOTI1NSwtNz
+Y2NTY0ODIwLDE3NjE5MTczODNdfQ==
 -->
