@@ -149,7 +149,8 @@ In the Matroska menu systems (Native,DVD) is the usage of an end timestamp depen
 
 ### ChapterFlagHidden
 
-The `ChapterFlagHidden` works a bit different as the `EditionFlagHidden`. Each `Chapter ChapterFlagHidden Flags` works independent.
+The `ChapterFlagHidden` works a bit different as the `EditionFlagHidden`. Each `Chapters ChapterFlagHidden Flags` works independent.
+
 
 Two `Chapter Flags` are defined to describe the behavior of the `ChapterAtom Element`: `ChapterFlagHidden` and `ChapterFlagEnabled`.
 
@@ -453,10 +454,11 @@ In this example an (existing) album is split into different chapters, and one of
 </Chapters>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTUxMjUwMzcsLTg3NzE5OTc0NSwxMT
-Q1NTcyNjkzLC02MzE1NjkxNTksODQxODI0ODQ1LC01OTYzOTQ0
-MTksMTIxMTYyNTAxNCw0MzQ4NTE5NDMsLTEyODk1MTkwMDEsMT
-A1MDQzNjgxNSwxOTA0ODk2NDM3LDExNTA3MzUzOTYsMTYxODU0
-NzkxNCwtMjAwMzUxNDA1OSwtNTY2MzQ1Mjk2LC02MjU1ODM2MD
-QsMzEyMDkyNTUsLTc2NjU2NDgyMCwxNzYxOTE3MzgzXX0=
+eyJoaXN0b3J5IjpbLTExNDEwODQ3MTYsLTE3OTUxMjUwMzcsLT
+g3NzE5OTc0NSwxMTQ1NTcyNjkzLC02MzE1NjkxNTksODQxODI0
+ODQ1LC01OTYzOTQ0MTksMTIxMTYyNTAxNCw0MzQ4NTE5NDMsLT
+EyODk1MTkwMDEsMTA1MDQzNjgxNSwxOTA0ODk2NDM3LDExNTA3
+MzUzOTYsMTYxODU0NzkxNCwtMjAwMzUxNDA1OSwtNTY2MzQ1Mj
+k2LC02MjU1ODM2MDQsMzEyMDkyNTUsLTc2NjU2NDgyMCwxNzYx
+OTE3MzgzXX0=
 -->
