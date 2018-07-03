@@ -110,7 +110,7 @@ See [the section on the `Linked Segments`](#linked-segments)) for more informati
 
 ### ChapterUID
 
-The `ChapterUID` is a manA unique ID with a range from 1 to 18446744073709551615 can be used to identify the `Edition`.
+The `ChapterUID` is a mandatory Matroska element with a unique ID and a range from 1 to 18446744073709551615.
 
 ## Menu features
 
@@ -403,8 +403,7 @@ In this example an (existing) album is split into different chapters, and one of
 </Chapters>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODUyOTM5NTUsMTE1MDczNTM5NiwxNj
-E4NTQ3OTE0LC0yMDAzNTE0MDU5LC01NjYzNDUyOTYsLTYyNTU4
-MzYwNCwzMTIwOTI1NSwtNzY2NTY0ODIwLDE3NjE5MTczODNdfQ
-==
+eyJoaXN0b3J5IjpbLTI0MzQ3NzI2OSwxMTUwNzM1Mzk2LDE2MT
+g1NDc5MTQsLTIwMDM1MTQwNTksLTU2NjM0NTI5NiwtNjI1NTgz
+NjA0LDMxMjA5MjU1LC03NjY1NjQ4MjAsMTc2MTkxNzM4M119
 -->
