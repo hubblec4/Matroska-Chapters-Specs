@@ -127,11 +127,11 @@ The end timestamp is used when the `Edition's EditionFlagOrdered Flag` is set to
 A `Matroska Player` have to calculate a `Chapter` duration by the difference of end timestamp and start timestamp.  
 The end timestamp MUST be greater than the start timestamp otherwise the `Chapter` duration would be negative which is illegal. If a `Chapter` duration 0 this `Chapter` will be ignored by a `Matroska Player`.
 Chapter    | Start timestamp | End timestamp | Duration
------------|-------	|-------|------
-Chapter 1  |   0   |  1000000000 | 1000000000
-Chapter 2  |   1000000000   |  5000000000 | 4000000000
-Chapter 3  |   6000000000   |  6000000000 | 0 (not used)
-Chapter 4  |   9000000000   |  8000000000 | -1000000000 (illegal)
+-----------|-----------------|---------------|------
+Chapter 1  |   0   			 |  1000000000   | 1000000000
+Chapter 2  |   1000000000    |  5000000000 	 | 4000000000
+Chapter 3  |   6000000000    |  6000000000   | 0 (not used)
+Chapter 4  |   9000000000    |  8000000000   | -1000000000 (illegal)
 
 In the Matroska menu systems (Native,DVD) is the usage of an end timestamp depended on the current process. 
 
@@ -433,8 +433,8 @@ In this example an (existing) album is split into different chapters, and one of
 </Chapters>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4NzY2MDg1MywxMDUwNDM2ODE1LDE5MD
-Q4OTY0MzcsMTE1MDczNTM5NiwxNjE4NTQ3OTE0LC0yMDAzNTE0
-MDU5LC01NjYzNDUyOTYsLTYyNTU4MzYwNCwzMTIwOTI1NSwtNz
-Y2NTY0ODIwLDE3NjE5MTczODNdfQ==
+eyJoaXN0b3J5IjpbLTEyODk1MTkwMDEsMTA1MDQzNjgxNSwxOT
+A0ODk2NDM3LDExNTA3MzUzOTYsMTYxODU0NzkxNCwtMjAwMzUx
+NDA1OSwtNTY2MzQ1Mjk2LC02MjU1ODM2MDQsMzEyMDkyNTUsLT
+c2NjU2NDgyMCwxNzYxOTE3MzgzXX0=
 -->
