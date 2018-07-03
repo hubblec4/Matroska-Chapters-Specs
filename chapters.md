@@ -6,7 +6,8 @@ The Matroska Chapters system can consist of`Simple Chapters` where a chapter sta
 
 The `EditionEntry` is also called an `Edition`.  
 An `Edition` is a set of `ChapterAtoms` and there must be at least one `ChapterAtom`.  
-Multiple `Editions` are allowed.  
+Multiple `Editions` are allowed.
+  
 
 ### EditionUID
 
@@ -446,9 +447,9 @@ In this example an (existing) album is split into different chapters, and one of
 </Chapters>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjI3NjIzNTUsLTU5NjM5NDQxOSwxMj
-ExNjI1MDE0LDQzNDg1MTk0MywtMTI4OTUxOTAwMSwxMDUwNDM2
-ODE1LDE5MDQ4OTY0MzcsMTE1MDczNTM5NiwxNjE4NTQ3OTE0LC
-0yMDAzNTE0MDU5LC01NjYzNDUyOTYsLTYyNTU4MzYwNCwzMTIw
-OTI1NSwtNzY2NTY0ODIwLDE3NjE5MTczODNdfQ==
+eyJoaXN0b3J5IjpbMjA1ODA5NjYwNywtNTk2Mzk0NDE5LDEyMT
+E2MjUwMTQsNDM0ODUxOTQzLC0xMjg5NTE5MDAxLDEwNTA0MzY4
+MTUsMTkwNDg5NjQzNywxMTUwNzM1Mzk2LDE2MTg1NDc5MTQsLT
+IwMDM1MTQwNTksLTU2NjM0NTI5NiwtNjI1NTgzNjA0LDMxMjA5
+MjU1LC03NjY1NjQ4MjAsMTc2MTkxNzM4M119
 -->
