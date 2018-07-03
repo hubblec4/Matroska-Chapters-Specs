@@ -39,8 +39,8 @@ It is RECOMMENDED that no more than one `Edition` have an `EditionFlagDefault Fl
 If the `Default Edition's` `EditionFlagHidden Flag` is set to `true`, then a `Matroska Player` SHOULD play this `Edition` only if all other `Editions` `EditionFlagHidden Flags` are set to `true`. 
 Editions / ChapterFlagHidden | False | True | visible
 --------------------------------|-------|-------|--
-Chapter 1                       |   X   |  		|  no
-Chapter 2                       |       |  X	|  no
+Edition 1                       |   X   |  		|  no
+Edition 2                       |       |  X	|  no
 
 Exists an `Edition`  with `EditionFlagHidden Flag` set to `false`, the `Matroska Player` MUST play this `Edition`.
 
@@ -378,6 +378,6 @@ In this example an (existing) album is split into different chapters, and one of
 </Chapters>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyNzI4NjEzMCwtNjI1NTgzNjA0LDMxMj
+eyJoaXN0b3J5IjpbLTcwODkwMDg0NCwtNjI1NTgzNjA0LDMxMj
 A5MjU1LC03NjY1NjQ4MjAsMTc2MTkxNzM4M119
 -->
