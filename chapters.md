@@ -18,7 +18,7 @@ A unique ID to identify the `Edition`. It's useful for tagging an `Edition`.
 When the `EditionFlagHidden Flag` is set to `false` means the `Edition` is visible and displayed in a `Matroska Player`.
 All `ChapterAtoms Elements` MUST be interpreted of their own `ChapterFlagHidden Flags`.
 
-When the `EditionFlagHidden Flag` is set to `true` the `Edition` is hidden and SHOULD not be selec in a `Matroska Player`.
+When the `EditionFlagHidden Flag` is set to `true` the `Edition` is hidden and SHOULD not be selectablly in a `Matroska Player` but play.
 It exists one case where a hidden `Edition` MUST be played:  
 All `Editions` `EditionFlagHidden Flags` are set to true, so there is no visible `Edition`.  
 In this case all `ChapterAtoms Elements` MUST also be interpreted as if their `ChapterFlagHidden Flag` is also set to `true`, regardless of their own `ChapterFlagHidden Flags`.
@@ -359,11 +359,11 @@ In this example an (existing) album is split into different chapters, and one of
 </Chapters>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDgwNzM3NDc0LDE4ODUyOTkyNTcsMTY1Mz
-QwNTU2NCwtODQxMTA1NjAsMTAyOTI4OTk0OSw5ODQ4Njc5NzUs
-MTcxMTk2Njk3LDExNjQ5MTc0NTAsMTExMTM4NTk4NSwtMjkyNj
-UzNzM3LC0yMDk2NDk0OTM4LDE3MTc4NDE3MDksLTE1MTU5MTEz
-NzUsOTEzMTg5NzMzLC0xNjgwOTEzNTYxLC0xNTM4MTY2NDA1LC
-0yMTI2OTEwODIsMzU4MDg5NzEwLDQ5MjMwMzk3NSwtMjA3OTE3
-OTM2Nl19
+eyJoaXN0b3J5IjpbLTgxMDY1ODMsMTg4NTI5OTI1NywxNjUzND
+A1NTY0LC04NDExMDU2MCwxMDI5Mjg5OTQ5LDk4NDg2Nzk3NSwx
+NzExOTY2OTcsMTE2NDkxNzQ1MCwxMTExMzg1OTg1LC0yOTI2NT
+M3MzcsLTIwOTY0OTQ5MzgsMTcxNzg0MTcwOSwtMTUxNTkxMTM3
+NSw5MTMxODk3MzMsLTE2ODA5MTM1NjEsLTE1MzgxNjY0MDUsLT
+IxMjY5MTA4MiwzNTgwODk3MTAsNDkyMzAzOTc1LC0yMDc5MTc5
+MzY2XX0=
 -->
