@@ -113,7 +113,8 @@ See [the section on the `Linked Segments`](#linked-segments)) for more informati
 The `ChapterUID` is a mandatory Matroska element with a unique ID and a range from 1 to 18446744073709551615.
 
 ### ChapterStringUID
-A unique string ID to identify the Chapter.
+A unique string ID to identify the Chapter.  
+Use for [WebVTT cue identifier storage](http://dev.w3.org/html5/webvtt/#webvtt-cue-identifier).
 
 ## Menu features
 
@@ -406,8 +407,8 @@ In this example an (existing) album is split into different chapters, and one of
 </Chapters>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzODIzMTcxMSwxOTA0ODk2NDM3LDExNT
-A3MzUzOTYsMTYxODU0NzkxNCwtMjAwMzUxNDA1OSwtNTY2MzQ1
-Mjk2LC02MjU1ODM2MDQsMzEyMDkyNTUsLTc2NjU2NDgyMCwxNz
-YxOTE3MzgzXX0=
+eyJoaXN0b3J5IjpbLTE0MDMwNTAxMDYsMTkwNDg5NjQzNywxMT
+UwNzM1Mzk2LDE2MTg1NDc5MTQsLTIwMDM1MTQwNTksLTU2NjM0
+NTI5NiwtNjI1NTgzNjA0LDMxMjA5MjU1LC03NjY1NjQ4MjAsMT
+c2MTkxNzM4M119
 -->
