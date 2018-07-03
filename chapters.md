@@ -130,7 +130,7 @@ Use for [WebVTT cue identifier storage](http://dev.w3.org/html5/webvtt/#webvtt-c
 
 ### ChapterTimeStart
 A not scaled timestamp of the start of `Chapter` with nanosecond accuracy.  
-The start time stamps are equal to the chapter markers in the timeline.
+For `Simple Chapters` arthe start time stamps equal to the chapter markers in the timeline.
 
 ### ChapterTimeEnd
 A timestamp of the end of `Chapter` with nanosecond accuracy.  The timestamp is excluded and also not scaled.
@@ -455,11 +455,11 @@ In this example an (existing) album is split into different chapters, and one of
 </Chapters>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzkxODU5MzA1LC03MTQxNjc1ODYsLTEzNz
-cxNjQ0ODcsLTE3OTUxMjUwMzcsLTg3NzE5OTc0NSwxMTQ1NTcy
-NjkzLC02MzE1NjkxNTksODQxODI0ODQ1LC01OTYzOTQ0MTksMT
-IxMTYyNTAxNCw0MzQ4NTE5NDMsLTEyODk1MTkwMDEsMTA1MDQz
-NjgxNSwxOTA0ODk2NDM3LDExNTA3MzUzOTYsMTYxODU0NzkxNC
-wtMjAwMzUxNDA1OSwtNTY2MzQ1Mjk2LC02MjU1ODM2MDQsMzEy
-MDkyNTVdfQ==
+eyJoaXN0b3J5IjpbMTY0MDMwMTg0OSwtNzE0MTY3NTg2LC0xMz
+c3MTY0NDg3LC0xNzk1MTI1MDM3LC04NzcxOTk3NDUsMTE0NTU3
+MjY5MywtNjMxNTY5MTU5LDg0MTgyNDg0NSwtNTk2Mzk0NDE5LD
+EyMTE2MjUwMTQsNDM0ODUxOTQzLC0xMjg5NTE5MDAxLDEwNTA0
+MzY4MTUsMTkwNDg5NjQzNywxMTUwNzM1Mzk2LDE2MTg1NDc5MT
+QsLTIwMDM1MTQwNTksLTU2NjM0NTI5NiwtNjI1NTgzNjA0LDMx
+MjA5MjU1XX0=
 -->
