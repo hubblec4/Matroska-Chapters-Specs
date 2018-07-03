@@ -128,7 +128,9 @@ A `Matroska Player` have to calculate a `Chapter` duration by the difference of 
 Chapter  | Start timestamp | End timestamp | Duration
 -----------|-------|-------|------
 Chapter 1  |   0   |  1000000000 | 1000000000
-Chapter 1  |   Chapter 1  |   0   |  1000000000 | 1000000000   |  1000000000 | 1000000000
+Chapter 2  |   1000000000   |  5000000000 | 4000000000
+
+The end timestamp MUST b
 
 
 
@@ -424,8 +426,8 @@ In this example an (existing) album is split into different chapters, and one of
 </Chapters>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwNDE3OTUyNywxMDUwNDM2ODE1LDE5MD
-Q4OTY0MzcsMTE1MDczNTM5NiwxNjE4NTQ3OTE0LC0yMDAzNTE0
-MDU5LC01NjYzNDUyOTYsLTYyNTU4MzYwNCwzMTIwOTI1NSwtNz
-Y2NTY0ODIwLDE3NjE5MTczODNdfQ==
+eyJoaXN0b3J5IjpbLTEwOTc4Nzg5NTcsMTA1MDQzNjgxNSwxOT
+A0ODk2NDM3LDExNTA3MzUzOTYsMTYxODU0NzkxNCwtMjAwMzUx
+NDA1OSwtNTY2MzQ1Mjk2LC02MjU1ODM2MDQsMzEyMDkyNTUsLT
+c2NjU2NDgyMCwxNzYxOTE3MzgzXX0=
 -->
