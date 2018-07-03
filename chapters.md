@@ -10,7 +10,7 @@ Multiple `Editions` are allowed.
 
 ### EditionUID
 
-A unique ID to identify the `Edition`. It's useful for tagging an `Edition`.
+A unique ID with a range from 1 to 18446744073709551615 can be used to identify the `Edition`. It's useful for tagging an `Edition`.
 
 
 ### EditionFlagHidden
@@ -359,11 +359,11 @@ In this example an (existing) album is split into different chapters, and one of
 </Chapters>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1MTEwMzY3NiwtMTA4MDE1ODMzMCwxOD
-g1Mjk5MjU3LDE2NTM0MDU1NjQsLTg0MTEwNTYwLDEwMjkyODk5
-NDksOTg0ODY3OTc1LDE3MTE5NjY5NywxMTY0OTE3NDUwLDExMT
-EzODU5ODUsLTI5MjY1MzczNywtMjA5NjQ5NDkzOCwxNzE3ODQx
-NzA5LC0xNTE1OTExMzc1LDkxMzE4OTczMywtMTY4MDkxMzU2MS
-wtMTUzODE2NjQwNSwtMjEyNjkxMDgyLDM1ODA4OTcxMCw0OTIz
-MDM5NzVdfQ==
+eyJoaXN0b3J5IjpbMTU0MDkwNzg1NywxMTUxMTAzNjc2LC0xMD
+gwMTU4MzMwLDE4ODUyOTkyNTcsMTY1MzQwNTU2NCwtODQxMTA1
+NjAsMTAyOTI4OTk0OSw5ODQ4Njc5NzUsMTcxMTk2Njk3LDExNj
+Q5MTc0NTAsMTExMTM4NTk4NSwtMjkyNjUzNzM3LC0yMDk2NDk0
+OTM4LDE3MTc4NDE3MDksLTE1MTU5MTEzNzUsOTEzMTg5NzMzLC
+0xNjgwOTEzNTYxLC0xNTM4MTY2NDA1LC0yMTI2OTEwODIsMzU4
+MDg5NzEwXX0=
 -->
