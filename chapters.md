@@ -20,8 +20,8 @@ All `ChapterAtoms Elements` MUST be interpreted of their own `ChapterFlagHidden 
 
 ChapterAtom / ChapterFlagHidden | False | True | visible
 --------------------------------|-------|-------|--
-Chapter 1                       |   X   |  		|  
-Chapter 2                       |       |  X	|
+Chapter 1                       |   X   |  		|  yes
+Chapter 2                       |       |  X	|  no
 
 When the `EditionFlagHidden Flag` is set to `true` the `Edition` is hidden and SHOULD not be selectablly in a `Matroska Player`.
 It exists one case where a hidden `Edition` MUST be played:  
@@ -367,6 +367,6 @@ In this example an (existing) album is split into different chapters, and one of
 </Chapters>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExOTk0MjMxNzAsMzEyMDkyNTUsLTc2Nj
-U2NDgyMCwxNzYxOTE3MzgzXX0=
+eyJoaXN0b3J5IjpbLTM1MTM1MzUxMCwzMTIwOTI1NSwtNzY2NT
+Y0ODIwLDE3NjE5MTczODNdfQ==
 -->
