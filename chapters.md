@@ -109,7 +109,7 @@ These other `Elements` belong to the Matroska DVD menu system and are only used 
 - Soft Linking: In this complex system `Ordered Chapters` are REQUIRED and a `Chapter CODEC` MUST interpret the `ChapProcess` of all chapters.
 - Medium Linking: `Ordered Chapters` are used in a normal way and can be combined with the `ChapterSegmentUID` element which establishes a link to another Matroska file/Segment.
 
-See [the section on the `Linked Segments`](#linked-segments)) for more information about `Hard Linking`, `Soft Linking` and `Medium Linking`.
+See [the section on the `Linked Segments`](#linked-segments) for more information about `Hard Linking`, `Soft Linking` and `Medium Linking`.
 
 ## ChapterAtom
 The `ChapterAtom` is also called a `Chapter`.
@@ -440,9 +440,9 @@ In this example an (existing) album is split into different chapters, and one of
 </Chapters>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIxMTYyNTAxNCw0MzQ4NTE5NDMsLTEyOD
-k1MTkwMDEsMTA1MDQzNjgxNSwxOTA0ODk2NDM3LDExNTA3MzUz
-OTYsMTYxODU0NzkxNCwtMjAwMzUxNDA1OSwtNTY2MzQ1Mjk2LC
-02MjU1ODM2MDQsMzEyMDkyNTUsLTc2NjU2NDgyMCwxNzYxOTE3
-MzgzXX0=
+eyJoaXN0b3J5IjpbLTU5NjM5NDQxOSwxMjExNjI1MDE0LDQzND
+g1MTk0MywtMTI4OTUxOTAwMSwxMDUwNDM2ODE1LDE5MDQ4OTY0
+MzcsMTE1MDczNTM5NiwxNjE4NTQ3OTE0LC0yMDAzNTE0MDU5LC
+01NjYzNDUyOTYsLTYyNTU4MzYwNCwzMTIwOTI1NSwtNzY2NTY0
+ODIwLDE3NjE5MTczODNdfQ==
 -->
