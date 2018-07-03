@@ -28,6 +28,11 @@ It exists one case where a hidden `Edition` MUST be played:
 All `Editions` `EditionFlagHidden Flags` are set to true, so there is no visible `Edition`.  
 In this case all `ChapterAtoms Elements` MUST also be interpreted as if their `ChapterFlagHidden Flag` is also set to `true`, regardless of their own `ChapterFlagHidden Flags`.
 
+ChapterAtom / ChapterFlagHidden | False | True | visible
+--------------------------------|-------|-------|--
+Chapter 1                       |   X   |  		|  no
+Chapter 2                       |       |  X	|  no
+
 ### EditionFlagDefault
 
 It is RECOMMENDED that no more than one `Edition` have an `EditionFlagDefault Flag` set to `true`. The first `Edition` with both the `EditionFlagDefault Flag` set to `true` and the `EditionFlagHidden Flag` set to `false` is the `Default Edition`.  
@@ -367,6 +372,6 @@ In this example an (existing) album is split into different chapters, and one of
 </Chapters>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1MTM1MzUxMCwzMTIwOTI1NSwtNzY2NT
+eyJoaXN0b3J5IjpbLTYyNTU4MzYwNCwzMTIwOTI1NSwtNzY2NT
 Y0ODIwLDE3NjE5MTczODNdfQ==
 -->
