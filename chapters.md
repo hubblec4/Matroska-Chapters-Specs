@@ -112,6 +112,9 @@ See [the section on the `Linked Segments`](#linked-segments)) for more informati
 
 The `ChapterUID` is a mandatory Matroska element with a unique ID and a range from 1 to 18446744073709551615.
 
+### ChapterStringUID
+A unique string ID to identify the Chapter.
+
 ## Menu features
 
 The menu features are handled like a _chapter codec_. That means each codec has a type, some private data and some data in the chapters.
@@ -403,7 +406,7 @@ In this example an (existing) album is split into different chapters, and one of
 </Chapters>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0MzQ3NzI2OSwxOTA0ODk2NDM3LDExNT
+eyJoaXN0b3J5IjpbMTkzODIzMTcxMSwxOTA0ODk2NDM3LDExNT
 A3MzUzOTYsMTYxODU0NzkxNCwtMjAwMzUxNDA1OSwtNTY2MzQ1
 Mjk2LC02MjU1ODM2MDQsMzEyMDkyNTUsLTc2NjU2NDgyMCwxNz
 YxOTE3MzgzXX0=
