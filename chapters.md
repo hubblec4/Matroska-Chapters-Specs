@@ -163,7 +163,7 @@ Chapter 2                | true				 | no
 
 ### ChapterFlagEnabled
 
-If the 
+If the `ChapterFlagEnabled Flag` is set to `true` a `Matroska Player` MUST u
 
 
 ## Menu features
@@ -457,11 +457,11 @@ In this example an (existing) album is split into different chapters, and one of
 </Chapters>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTYxODk2ODEsMTU3NzI0NDQ1Myw5NT
-g1MzYwNDYsLTcxNDE2NzU4NiwtMTM3NzE2NDQ4NywtMTc5NTEy
-NTAzNywtODc3MTk5NzQ1LDExNDU1NzI2OTMsLTYzMTU2OTE1OS
-w4NDE4MjQ4NDUsLTU5NjM5NDQxOSwxMjExNjI1MDE0LDQzNDg1
-MTk0MywtMTI4OTUxOTAwMSwxMDUwNDM2ODE1LDE5MDQ4OTY0Mz
-csMTE1MDczNTM5NiwxNjE4NTQ3OTE0LC0yMDAzNTE0MDU5LC01
-NjYzNDUyOTZdfQ==
+eyJoaXN0b3J5IjpbLTkzMzcyOTcxNiwxNTc3MjQ0NDUzLDk1OD
+UzNjA0NiwtNzE0MTY3NTg2LC0xMzc3MTY0NDg3LC0xNzk1MTI1
+MDM3LC04NzcxOTk3NDUsMTE0NTU3MjY5MywtNjMxNTY5MTU5LD
+g0MTgyNDg0NSwtNTk2Mzk0NDE5LDEyMTE2MjUwMTQsNDM0ODUx
+OTQzLC0xMjg5NTE5MDAxLDEwNTA0MzY4MTUsMTkwNDg5NjQzNy
+wxMTUwNzM1Mzk2LDE2MTg1NDc5MTQsLTIwMDM1MTQwNTksLTU2
+NjM0NTI5Nl19
 -->
