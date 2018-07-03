@@ -149,11 +149,13 @@ In the Matroska menu systems (Native,DVD) is the usage of an end timestamp depen
 
 ### ChapterFlagHidden
 
+
+
 Two `Chapter Flags` are defined to describe the behavior of the `ChapterAtom Element`: `ChapterFlagHidden` and `ChapterFlagEnabled`.
 
 If a `ChapterAtom Element` is the `Child Element` of another `ChapterAtom Element` with a `Chapter Flag` set to `true`, then the `Child ChapterAtom Element` MUST be interpreted as having its same `Chapter Flag` set to `true`. If a `ChapterAtom Element` is the `Child Element` of another `ChapterAtom Element` with a `Chapter Flag` set to `false` or if the `ChapterAtom Element` does not have a `ChapterAtom Element` as its `Parent Element`, then it MUST be interpreted according to its own `Chapter Flag`.
 
-As an example, consider a `Parent ChapterAtom Element` that has its `ChapterFlagHidden` set to `true` and also contains two child `ChapterAtoms`, the first with `ChapterFlagHidden` set to `true` and the second with `ChapterFlagHidden` either set to `false` or not present at all (in which case the default value of the Element applies, which is `false`). Since the parent `ChapterAtom` has its `ChapterFlagHidden` set to `true` then all of its children `ChapterAtoms` MUST also be interpreted as if their `ChapterFlagHidden` is also set to `true`. However, if a `Control Track` toggles the parent's `ChapterFlagHidden` flag to `false`, then only the parent `ChapterAtom` and its second child `ChapterAtom` MUST be interpreted as if `ChapterFlagHidden` is set to `false`. The first child `ChapterAtom` which has the `ChapterFlagHidden` flag set to `true` retains its value until its value is toggled to `false` by a `Control Track`.
+
 
 
 
@@ -451,10 +453,10 @@ In this example an (existing) album is split into different chapters, and one of
 </Chapters>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzMTU2OTE1OSw4NDE4MjQ4NDUsLTU5Nj
-M5NDQxOSwxMjExNjI1MDE0LDQzNDg1MTk0MywtMTI4OTUxOTAw
-MSwxMDUwNDM2ODE1LDE5MDQ4OTY0MzcsMTE1MDczNTM5NiwxNj
-E4NTQ3OTE0LC0yMDAzNTE0MDU5LC01NjYzNDUyOTYsLTYyNTU4
-MzYwNCwzMTIwOTI1NSwtNzY2NTY0ODIwLDE3NjE5MTczODNdfQ
-==
+eyJoaXN0b3J5IjpbMTE0NTU3MjY5MywtNjMxNTY5MTU5LDg0MT
+gyNDg0NSwtNTk2Mzk0NDE5LDEyMTE2MjUwMTQsNDM0ODUxOTQz
+LC0xMjg5NTE5MDAxLDEwNTA0MzY4MTUsMTkwNDg5NjQzNywxMT
+UwNzM1Mzk2LDE2MTg1NDc5MTQsLTIwMDM1MTQwNTksLTU2NjM0
+NTI5NiwtNjI1NTgzNjA0LDMxMjA5MjU1LC03NjY1NjQ4MjAsMT
+c2MTkxNzM4M119
 -->
