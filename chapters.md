@@ -134,7 +134,7 @@ For `Simple Chapters` are the start time stamps equal to the chapter markers in 
 
 ### ChapterTimeEnd
 A timestamp of the end of `Chapter` with nanosecond accuracy.  The timestamp is excluded and also not scaled.
-The end timestamp is used when the `Edition's EditionFlagOrdered Flag` is set to `true`.
+The end timestamp is used when the `Edition EditionFlagOrdered Flag` is set to `true`.
 A `Matroska Player` have to calculate a `Chapter` duration by the difference of end timestamp and start timestamp.  
 The end timestamp MUST be greater than the start timestamp otherwise the `Chapter` duration would be negative which is illegal. If a `Chapter` duration 0 this `Chapter` will be ignored by a `Matroska Player`.
 
@@ -455,11 +455,11 @@ In this example an (existing) album is split into different chapters, and one of
 </Chapters>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2MTc2NTQ5MiwtNzE0MTY3NTg2LC0xMz
-c3MTY0NDg3LC0xNzk1MTI1MDM3LC04NzcxOTk3NDUsMTE0NTU3
-MjY5MywtNjMxNTY5MTU5LDg0MTgyNDg0NSwtNTk2Mzk0NDE5LD
-EyMTE2MjUwMTQsNDM0ODUxOTQzLC0xMjg5NTE5MDAxLDEwNTA0
-MzY4MTUsMTkwNDg5NjQzNywxMTUwNzM1Mzk2LDE2MTg1NDc5MT
-QsLTIwMDM1MTQwNTksLTU2NjM0NTI5NiwtNjI1NTgzNjA0LDMx
-MjA5MjU1XX0=
+eyJoaXN0b3J5IjpbMTA2ODcyNTQ0LC03MTQxNjc1ODYsLTEzNz
+cxNjQ0ODcsLTE3OTUxMjUwMzcsLTg3NzE5OTc0NSwxMTQ1NTcy
+NjkzLC02MzE1NjkxNTksODQxODI0ODQ1LC01OTYzOTQ0MTksMT
+IxMTYyNTAxNCw0MzQ4NTE5NDMsLTEyODk1MTkwMDEsMTA1MDQz
+NjgxNSwxOTA0ODk2NDM3LDExNTA3MzUzOTYsMTYxODU0NzkxNC
+wtMjAwMzUxNDA1OSwtNTY2MzQ1Mjk2LC02MjU1ODM2MDQsMzEy
+MDkyNTVdfQ==
 -->
