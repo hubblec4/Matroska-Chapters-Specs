@@ -107,17 +107,18 @@ These other `Elements` belong to the Matroska DVD menu system and are only used 
 See [the section on the `Linked Segments`](#linked-segments)) for more information about `Hard Linking`, `Soft Linking` and `Medium Linking`.
 
 ## ChapterAtom
+The `ChapterAtom` is also called a `Chapter`.
 
 ### ChapterUID
 
 The `ChapterUID` is a mandatory Matroska element with a unique ID and a range from 1 to 18446744073709551615.
 
 ### ChapterStringUID
-A unique string ID to identify the Chapter.  
+A unique string ID to identify the `Chapter`.  
 Use for [WebVTT cue identifier storage](http://dev.w3.org/html5/webvtt/#webvtt-cue-identifier).
 
 ### ChapterTimeStart
-Timestamp of the start of Chapter
+Timestamp of the start of `Chapter` so
 
 
 
@@ -414,7 +415,7 @@ In this example an (existing) album is split into different chapters, and one of
 </Chapters>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwNDk3NjIzMSwxOTA0ODk2NDM3LDExNT
+eyJoaXN0b3J5IjpbMTgxMDYzMDEzNiwxOTA0ODk2NDM3LDExNT
 A3MzUzOTYsMTYxODU0NzkxNCwtMjAwMzUxNDA1OSwtNTY2MzQ1
 Mjk2LC02MjU1ODM2MDQsMzEyMDkyNTUsLTc2NjU2NDgyMCwxNz
 YxOTE3MzgzXX0=
