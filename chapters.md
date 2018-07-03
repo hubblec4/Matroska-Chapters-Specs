@@ -108,7 +108,9 @@ See [the section on the `Linked Segments`](#linked-segments)) for more informati
 
 ## ChapterAtom
 
+### ChapterUID
 
+The `ChapterUID` is a manA unique ID with a range from 1 to 18446744073709551615 can be used to identify the `Edition`.
 
 ## Menu features
 
@@ -401,7 +403,8 @@ In this example an (existing) album is split into different chapters, and one of
 </Chapters>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1MDczNTM5NiwxNjE4NTQ3OTE0LC0yMD
-AzNTE0MDU5LC01NjYzNDUyOTYsLTYyNTU4MzYwNCwzMTIwOTI1
-NSwtNzY2NTY0ODIwLDE3NjE5MTczODNdfQ==
+eyJoaXN0b3J5IjpbLTEwODUyOTM5NTUsMTE1MDczNTM5NiwxNj
+E4NTQ3OTE0LC0yMDAzNTE0MDU5LC01NjYzNDUyOTYsLTYyNTU4
+MzYwNCwzMTIwOTI1NSwtNzY2NTY0ODIwLDE3NjE5MTczODNdfQ
+==
 -->
