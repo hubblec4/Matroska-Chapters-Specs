@@ -55,8 +55,8 @@ If no `Default Edition` is specified a `Matroska Player` MUST play the first `Ed
 Edition | FlagHidden | FlagDefault | used Edition
 ------------|-------|-------|--
 Edition 1|   true   |  	false	|  
-Edition 2|   false  |  false	|  
-Edition 3|   true   |  false	|  X
+Edition 2|   false  |  false	|  X
+Edition 3|   true   |  false	|  
 
 When all `EditionFlagHidden Flags` are set to `true`, then the first `Edition` MUST be played by the `Matroska Player`.
 Edition | FlagHidden | FlagDefault | used Edition
@@ -397,7 +397,7 @@ In this example an (existing) album is split into different chapters, and one of
 </Chapters>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0NTQ3ODc5NywtMjAwMzUxNDA1OSwtNT
-Y2MzQ1Mjk2LC02MjU1ODM2MDQsMzEyMDkyNTUsLTc2NjU2NDgy
-MCwxNzYxOTE3MzgzXX0=
+eyJoaXN0b3J5IjpbNjUyNjQ0NjY1LC0yMDAzNTE0MDU5LC01Nj
+YzNDUyOTYsLTYyNTU4MzYwNCwzMTIwOTI1NSwtNzY2NTY0ODIw
+LDE3NjE5MTczODNdfQ==
 -->
