@@ -98,7 +98,7 @@ Track/TrackTranslate               |   -   |  X
 
 These other `Elements` belong to the Matroska DVD menu system and are only used when the `ChapProcessCodecID Element` is set to 1.
 
-##### Ordered-Edition and Matroska Segment-Linking
+#### Ordered-Edition and Matroska Segment-Linking
 
 - Hard Linking: `Ordered-Chapters` supersedes the `Hard Linking`.
 - Soft Linking: In this complex system `Ordered Chapters` are REQUIRED and a `Chapter CODEC` MUST interpret the `ChapProcess` of all chapters.
@@ -397,7 +397,7 @@ In this example an (existing) album is split into different chapters, and one of
 </Chapters>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjUyNjQ0NjY1LC0yMDAzNTE0MDU5LC01Nj
-YzNDUyOTYsLTYyNTU4MzYwNCwzMTIwOTI1NSwtNzY2NTY0ODIw
-LDE3NjE5MTczODNdfQ==
+eyJoaXN0b3J5IjpbMTYxODU0NzkxNCwtMjAwMzUxNDA1OSwtNT
+Y2MzQ1Mjk2LC02MjU1ODM2MDQsMzEyMDkyNTUsLTc2NjU2NDgy
+MCwxNzYxOTE3MzgzXX0=
 -->
