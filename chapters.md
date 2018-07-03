@@ -121,7 +121,9 @@ Use for [WebVTT cue identifier storage](http://dev.w3.org/html5/webvtt/#webvtt-c
 Timestamp of the start of `Chapter` with nanosecond accuracy.  
 The start time stamps are equal to the chapter markers in the timeline.
 
-
+### ChapterTimeEnd
+Timestamp of the end of `Chapter` with nanosecond accuracy.  
+The start time stamps are equal to the chapter markers in the timeline.
 
 
 
@@ -416,8 +418,8 @@ In this example an (existing) album is split into different chapters, and one of
 </Chapters>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3NDE3NTc2MiwxMDUwNDM2ODE1LDE5MD
-Q4OTY0MzcsMTE1MDczNTM5NiwxNjE4NTQ3OTE0LC0yMDAzNTE0
-MDU5LC01NjYzNDUyOTYsLTYyNTU4MzYwNCwzMTIwOTI1NSwtNz
-Y2NTY0ODIwLDE3NjE5MTczODNdfQ==
+eyJoaXN0b3J5IjpbODAyNTA2MDY5LDEwNTA0MzY4MTUsMTkwND
+g5NjQzNywxMTUwNzM1Mzk2LDE2MTg1NDc5MTQsLTIwMDM1MTQw
+NTksLTU2NjM0NTI5NiwtNjI1NTgzNjA0LDMxMjA5MjU1LC03Nj
+Y1NjQ4MjAsMTc2MTkxNzM4M119
 -->
