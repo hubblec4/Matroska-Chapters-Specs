@@ -108,6 +108,8 @@ See [the section on the `Linked Segments`](#linked-segments)) for more informati
 
 ## ChapterAtom
 
+
+
 ## Menu features
 
 The menu features are handled like a _chapter codec_. That means each codec has a type, some private data and some data in the chapters.
@@ -399,7 +401,7 @@ In this example an (existing) album is split into different chapters, and one of
 </Chapters>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxODg5OTQwMCwxNjE4NTQ3OTE0LC0yMD
+eyJoaXN0b3J5IjpbMTE1MDczNTM5NiwxNjE4NTQ3OTE0LC0yMD
 AzNTE0MDU5LC01NjYzNDUyOTYsLTYyNTU4MzYwNCwzMTIwOTI1
 NSwtNzY2NTY0ODIwLDE3NjE5MTczODNdfQ==
 -->
