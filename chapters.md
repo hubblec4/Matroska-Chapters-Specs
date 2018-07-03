@@ -125,9 +125,9 @@ The start time stamps are equal to the chapter markers in the timeline.
 A timestamp of the end of `Chapter` with nanosecond accuracy.  The timestamp is excluded and also not scaled.
 The end timestamp is used when the `Edition's EditionFlagOrdered Flag` is set to `true`.
 A `Matroska Player` have to calculate a `Chapter` duration by the difference of end timestamp and start timestamp.
-Chapter  | Start timestamp | End timestamp
------------|-------|-------
-Chapter 1  |   0   |  1000000000
+Chapter  | Start timestamp | End timestamp | Duration
+-----------|-------|-------|------
+Chapter 1  |   0   |  1000000000 |
 
 
 
@@ -423,7 +423,7 @@ In this example an (existing) album is split into different chapters, and one of
 </Chapters>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4NDY5Nzg2MCwxMDUwNDM2ODE1LDE5MD
+eyJoaXN0b3J5IjpbLTc4MjgwNTQwMiwxMDUwNDM2ODE1LDE5MD
 Q4OTY0MzcsMTE1MDczNTM5NiwxNjE4NTQ3OTE0LC0yMDAzNTE0
 MDU5LC01NjYzNDUyOTYsLTYyNTU4MzYwNCwzMTIwOTI1NSwtNz
 Y2NTY0ODIwLDE3NjE5MTczODNdfQ==
