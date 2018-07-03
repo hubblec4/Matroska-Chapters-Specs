@@ -109,6 +109,7 @@ See [the section on the `Linked Segments`](#linked-segments)) for more informati
 ## ChapterAtom
 The `ChapterAtom` is also called a `Chapter`.
 
+
 ### ChapterUID
 
 The `ChapterUID` is a mandatory Matroska element with a unique ID and a range from 1 to 18446744073709551615.
@@ -135,6 +136,7 @@ Chapter 4  |   9000000000    |  8000000000   | -1000000000 (illegal)
 
 In the Matroska menu systems (Native,DVD) is the usage of an end timestamp depended on the current process. 
 
+### ChapterFlagHidden
 
 
 
@@ -433,8 +435,8 @@ In this example an (existing) album is split into different chapters, and one of
 </Chapters>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODk1MTkwMDEsMTA1MDQzNjgxNSwxOT
-A0ODk2NDM3LDExNTA3MzUzOTYsMTYxODU0NzkxNCwtMjAwMzUx
-NDA1OSwtNTY2MzQ1Mjk2LC02MjU1ODM2MDQsMzEyMDkyNTUsLT
-c2NjU2NDgyMCwxNzYxOTE3MzgzXX0=
+eyJoaXN0b3J5IjpbLTIwMTc4OTQ3NzksLTEyODk1MTkwMDEsMT
+A1MDQzNjgxNSwxOTA0ODk2NDM3LDExNTA3MzUzOTYsMTYxODU0
+NzkxNCwtMjAwMzUxNDA1OSwtNTY2MzQ1Mjk2LC02MjU1ODM2MD
+QsMzEyMDkyNTUsLTc2NjU2NDgyMCwxNzYxOTE3MzgzXX0=
 -->
