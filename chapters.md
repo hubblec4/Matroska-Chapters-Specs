@@ -178,9 +178,11 @@ Chapter 1                | true 		     | yes
 +Nested Chapter 1.2      | false      		 | no
 ++Nested Chapter 1.2.1   | true      		 | no
 ++Nested Chapter 1.2.2   | false      		 | no
-Chapter 2                | true				 | no
-+Nested Chapter 2.1      | false      		 | yes
+Chapter 2                | false  		     | no
++Nested Chapter 2.1      | true      		 | no
 +Nested Chapter 2.2      | true      		 | no
+++Nested Chapter 2.2.1   | true      		 | no
+++Nested Chapter 2.2.2   | false      		 | no
 
 
 
@@ -475,11 +477,11 @@ In this example an (existing) album is split into different chapters, and one of
 </Chapters>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyOTM3MzczLC03Mzc0MDgyNTMsMTE4Mz
-AxMjU2MSwtMTY0ODg0NzkxNiwxNTE3NDMxOTQ3LDE1NzcyNDQ0
-NTMsOTU4NTM2MDQ2LC03MTQxNjc1ODYsLTEzNzcxNjQ0ODcsLT
-E3OTUxMjUwMzcsLTg3NzE5OTc0NSwxMTQ1NTcyNjkzLC02MzE1
-NjkxNTksODQxODI0ODQ1LC01OTYzOTQ0MTksMTIxMTYyNTAxNC
-w0MzQ4NTE5NDMsLTEyODk1MTkwMDEsMTA1MDQzNjgxNSwxOTA0
-ODk2NDM3XX0=
+eyJoaXN0b3J5IjpbLTEwNDA1MzEzNTcsLTczNzQwODI1MywxMT
+gzMDEyNTYxLC0xNjQ4ODQ3OTE2LDE1MTc0MzE5NDcsMTU3NzI0
+NDQ1Myw5NTg1MzYwNDYsLTcxNDE2NzU4NiwtMTM3NzE2NDQ4Ny
+wtMTc5NTEyNTAzNywtODc3MTk5NzQ1LDExNDU1NzI2OTMsLTYz
+MTU2OTE1OSw4NDE4MjQ4NDUsLTU5NjM5NDQxOSwxMjExNjI1MD
+E0LDQzNDg1MTk0MywtMTI4OTUxOTAwMSwxMDUwNDM2ODE1LDE5
+MDQ4OTY0MzddfQ==
 -->
