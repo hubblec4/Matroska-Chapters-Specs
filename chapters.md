@@ -2,13 +2,11 @@
 
 The Matroska Chapters system can consist of`Simple Chapters` where a chapter start time is used as marker in the timeline only. The system can be more complex with `Ordered Chapters` where a chapter end time stamp is additionally used or much more complex with `Linked Chapters`. The Matroska Chapters system can also have a menu structure, borrowed from the DVD menu system, or have it's own Native Matroska menu structure.
 
-
 ## EditionEntry
 
 The `EditionEntry` is also called an `Edition`.  
-An `Edition` is a set of `ChapterAtoms` and there must be at least one `ChapterAtom`.
-Multiple `Editions` are allowed. E
-
+An `Edition` is a set of `ChapterAtoms` and there must be at least one `ChapterAtom`.  
+Multiple `Editions` are allowed.
 
 ### EditionUID
 
@@ -363,7 +361,7 @@ In this example an (existing) album is split into different chapters, and one of
 </Chapters>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxNjQ2Mzg2MywtODQxMTA1NjAsMTAyOT
+eyJoaXN0b3J5IjpbMTY1MzQwNTU2NCwtODQxMTA1NjAsMTAyOT
 I4OTk0OSw5ODQ4Njc5NzUsMTcxMTk2Njk3LDExNjQ5MTc0NTAs
 MTExMTM4NTk4NSwtMjkyNjUzNzM3LC0yMDk2NDk0OTM4LDE3MT
 c4NDE3MDksLTE1MTU5MTEzNzUsOTEzMTg5NzMzLC0xNjgwOTEz
