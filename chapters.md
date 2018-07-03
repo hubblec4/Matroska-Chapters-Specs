@@ -165,7 +165,7 @@ Chapter 2                | true				 | no
 
 If the `ChapterFlagEnabled Flag` is set to `true` a `Matroska Player` MUST use this `Chapter`.  
 For `Simple Chapters` with `ChapterFlagHidden Flag` set to `false` the `Chapter` is visible as chapter mark in the timeline.
-With `Ordered Chapters` a `Matroska Player` MUST use the duration of this `Chapter` even if the `ChapterFlagHidden Flag` is set to `true`.
+For `Ordered Chapters` a `Matroska Player` MUST use the duration of this `Chapter` even if the `ChapterFlagHidden Flag` is set to `true`.
 
 If the `ChapterFlagEnabled Flag` is set to `false` a `Matroska Player` MUST ignore this `Chapter` and all his `Nested Chapters`.  
 
@@ -464,11 +464,11 @@ In this example an (existing) album is split into different chapters, and one of
 </Chapters>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4MzAxMjU2MSwtMTY0ODg0NzkxNiwxNT
-E3NDMxOTQ3LDE1NzcyNDQ0NTMsOTU4NTM2MDQ2LC03MTQxNjc1
-ODYsLTEzNzcxNjQ0ODcsLTE3OTUxMjUwMzcsLTg3NzE5OTc0NS
-wxMTQ1NTcyNjkzLC02MzE1NjkxNTksODQxODI0ODQ1LC01OTYz
-OTQ0MTksMTIxMTYyNTAxNCw0MzQ4NTE5NDMsLTEyODk1MTkwMD
-EsMTA1MDQzNjgxNSwxOTA0ODk2NDM3LDExNTA3MzUzOTYsMTYx
-ODU0NzkxNF19
+eyJoaXN0b3J5IjpbLTQ1MzA3ODU5NiwxMTgzMDEyNTYxLC0xNj
+Q4ODQ3OTE2LDE1MTc0MzE5NDcsMTU3NzI0NDQ1Myw5NTg1MzYw
+NDYsLTcxNDE2NzU4NiwtMTM3NzE2NDQ4NywtMTc5NTEyNTAzNy
+wtODc3MTk5NzQ1LDExNDU1NzI2OTMsLTYzMTU2OTE1OSw4NDE4
+MjQ4NDUsLTU5NjM5NDQxOSwxMjExNjI1MDE0LDQzNDg1MTk0My
+wtMTI4OTUxOTAwMSwxMDUwNDM2ODE1LDE5MDQ4OTY0MzcsMTE1
+MDczNTM5Nl19
 -->
