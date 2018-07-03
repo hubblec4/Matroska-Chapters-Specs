@@ -6,6 +6,7 @@ The Matroska Chapters system can consist of`Simple Chapters` where a chapter sta
 ## EditionEntry
 
 `EditionEntry` is also called an `Edition`.  
+
 Contains all information about a segment `Edition`.
 Multiple `Editions` are allowed.
 
@@ -363,11 +364,11 @@ In this example an (existing) album is split into different chapters, and one of
 </Chapters>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyOTI4OTk0OSw5ODQ4Njc5NzUsMTcxMT
-k2Njk3LDExNjQ5MTc0NTAsMTExMTM4NTk4NSwtMjkyNjUzNzM3
-LC0yMDk2NDk0OTM4LDE3MTc4NDE3MDksLTE1MTU5MTEzNzUsOT
-EzMTg5NzMzLC0xNjgwOTEzNTYxLC0xNTM4MTY2NDA1LC0yMTI2
-OTEwODIsMzU4MDg5NzEwLDQ5MjMwMzk3NSwtMjA3OTE3OTM2Ni
-wtMTE1NTIwNTA5NCwxMzA3NTU4MjcwLDEzNjcyMzcyNTksLTE2
-MzI3MzcwMTNdfQ==
+eyJoaXN0b3J5IjpbLTE3NzczMzE3MjksMTAyOTI4OTk0OSw5OD
+Q4Njc5NzUsMTcxMTk2Njk3LDExNjQ5MTc0NTAsMTExMTM4NTk4
+NSwtMjkyNjUzNzM3LC0yMDk2NDk0OTM4LDE3MTc4NDE3MDksLT
+E1MTU5MTEzNzUsOTEzMTg5NzMzLC0xNjgwOTEzNTYxLC0xNTM4
+MTY2NDA1LC0yMTI2OTEwODIsMzU4MDg5NzEwLDQ5MjMwMzk3NS
+wtMjA3OTE3OTM2NiwtMTE1NTIwNTA5NCwxMzA3NTU4MjcwLDEz
+NjcyMzcyNTldfQ==
 -->
