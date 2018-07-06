@@ -186,7 +186,7 @@ Chapter 2                | false  		     | no
 
 ## ChapterSegmentUID
 
-The `ChapterSegmentUID` element SHOULD be used only with `Ordered Chapters` and the value .
+The `ChapterSegmentUID` element SHOULD be used only with `Ordered Chapters`.
 
 ## Menu features
 
@@ -479,11 +479,11 @@ In this example an (existing) album is split into different chapters, and one of
 </Chapters>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQwOTUzOTE0LC0yOTcwNTU1NTcsMTI0MD
-A0Mzg2MCwtOTg3MzI2MTI0LC0xMDQwNTMxMzU3LC03Mzc0MDgy
-NTMsMTE4MzAxMjU2MSwtMTY0ODg0NzkxNiwxNTE3NDMxOTQ3LD
-E1NzcyNDQ0NTMsOTU4NTM2MDQ2LC03MTQxNjc1ODYsLTEzNzcx
-NjQ0ODcsLTE3OTUxMjUwMzcsLTg3NzE5OTc0NSwxMTQ1NTcyNj
-kzLC02MzE1NjkxNTksODQxODI0ODQ1LC01OTYzOTQ0MTksMTIx
-MTYyNTAxNF19
+eyJoaXN0b3J5IjpbLTI5NzA1NTU1Nyw4NDA5NTM5MTQsLTI5Nz
+A1NTU1NywxMjQwMDQzODYwLC05ODczMjYxMjQsLTEwNDA1MzEz
+NTcsLTczNzQwODI1MywxMTgzMDEyNTYxLC0xNjQ4ODQ3OTE2LD
+E1MTc0MzE5NDcsMTU3NzI0NDQ1Myw5NTg1MzYwNDYsLTcxNDE2
+NzU4NiwtMTM3NzE2NDQ4NywtMTc5NTEyNTAzNywtODc3MTk5Nz
+Q1LDExNDU1NzI2OTMsLTYzMTU2OTE1OSw4NDE4MjQ4NDUsLTU5
+NjM5NDQxOV19
 -->
