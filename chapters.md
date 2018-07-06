@@ -193,10 +193,10 @@ Matroska file/Segment 1: `SegmentUID` 1234567890abcdeffedcba0987654321
 Matroska file/Segment 2: `SegmentUID` abcdef1234567890fedcba0987654321
 
 Segment 1 Chapters | ChapterSegmentUID | used Matroska file/Segment
--------------------|-----------------|---------------
-Chapter 1  		   | empty			 | 1
-Chapter 2  		   | abcdef1234567890fedcba0987654321 | 2
-Chapter 3  		   | 1234567890abcdeffedcba0987654321 | 1
+-------------------|-------------------|---------------
+Chapter 1  		   | empty			   | Segment 1
+Chapter 2  		   | abcdef1234567890fedcba0987654321 | Segment 2
+Chapter 3  		   | 1234567890abcdeffedcba0987654321 | Segment 1
 
 
 
@@ -491,7 +491,7 @@ In this example an (existing) album is split into different chapters, and one of
 </Chapters>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1OTc2MjM1MywtMTIxMzQ1MjE3MiwtMT
+eyJoaXN0b3J5IjpbLTM3MjE0NzU2MCwtMTIxMzQ1MjE3MiwtMT
 g3NjEyNzk2NiwtNTYyNzUwMzUyLDY4NDk1NTcwLDE0OTAwODU5
 MzgsLTI5NzA1NTU1Nyw4NDA5NTM5MTQsLTI5NzA1NTU1NywxMj
 QwMDQzODYwLC05ODczMjYxMjQsLTEwNDA1MzEzNTcsLTczNzQw
