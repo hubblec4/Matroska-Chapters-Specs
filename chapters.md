@@ -187,7 +187,7 @@ Chapter 2                | false  		     | no
 ## ChapterSegmentUID
 
 The `ChapterSegmentUID` element SHOULD be used only with `Ordered Chapters`.
-A `Chapter` with a `ChapterSegmentUID` is also called `Linked Chapter` when the Segment.
+A `Chapter` with a `ChapterSegmentUID` is also called `Linked Chapter` when the SegmentUID value is from another `Matroska` file/Segment.
 
 
 
@@ -482,11 +482,11 @@ In this example an (existing) album is split into different chapters, and one of
 </Chapters>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjg0OTU1NzAsMTQ5MDA4NTkzOCwtMjk3MD
-U1NTU3LDg0MDk1MzkxNCwtMjk3MDU1NTU3LDEyNDAwNDM4NjAs
-LTk4NzMyNjEyNCwtMTA0MDUzMTM1NywtNzM3NDA4MjUzLDExOD
-MwMTI1NjEsLTE2NDg4NDc5MTYsMTUxNzQzMTk0NywxNTc3MjQ0
-NDUzLDk1ODUzNjA0NiwtNzE0MTY3NTg2LC0xMzc3MTY0NDg3LC
-0xNzk1MTI1MDM3LC04NzcxOTk3NDUsMTE0NTU3MjY5MywtNjMx
-NTY5MTU5XX0=
+eyJoaXN0b3J5IjpbNzQ1NDQ3NzE2LDY4NDk1NTcwLDE0OTAwOD
+U5MzgsLTI5NzA1NTU1Nyw4NDA5NTM5MTQsLTI5NzA1NTU1Nywx
+MjQwMDQzODYwLC05ODczMjYxMjQsLTEwNDA1MzEzNTcsLTczNz
+QwODI1MywxMTgzMDEyNTYxLC0xNjQ4ODQ3OTE2LDE1MTc0MzE5
+NDcsMTU3NzI0NDQ1Myw5NTg1MzYwNDYsLTcxNDE2NzU4NiwtMT
+M3NzE2NDQ4NywtMTc5NTEyNTAzNywtODc3MTk5NzQ1LDExNDU1
+NzI2OTNdfQ==
 -->
