@@ -100,6 +100,9 @@ file name   | `SegmentUID`                       | `PrevUID`                    
 `middle.mkv`| `a77b3598941cb803eac0fcdafe44fac9` | `71000c23cd31099853fbc94dd984a5dd` | `6c92285fa6d3e827b198d120ea3ac674`
 `end.mkv`   | `6c92285fa6d3e827b198d120ea3ac674` | `a77b3598941cb803eac0fcdafe44fac9` | n/a
 
+
+
+
 ## Medium Linking
 
 Medium Linking creates relationships between `Segments` using Ordered Chapters and the `ChapterSegmentUID Element`. A `Segment Edition` with Ordered Chapters MAY contain `Chapter Elements` that reference timestamp ranges from other `Segments`. The `Segment` referenced by the Ordered Chapter via the `ChapterSegmentUID Element` SHOULD be played as part of a Linked Segment. The timestamps of Segment content referenced by Ordered Chapters MUST be adjusted according to the cumulative duration of the the previous Ordered Chapters.
@@ -242,6 +245,6 @@ It would be possible for a `Matroska Player` to also adjust the audio's samplera
 
 While the above example deals specifically with audio tracks, this element can be used to align video, audio, subtitles, or any other type of track contained in a Matroska file.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3Nzc1MDQ2OCw2MzUxOTQ5MDYsLTYyOT
-A4MTY3Nl19
+eyJoaXN0b3J5IjpbLTEwNTQwMjMyMTgsMTE3Nzc1MDQ2OCw2Mz
+UxOTQ5MDYsLTYyOTA4MTY3Nl19
 -->
