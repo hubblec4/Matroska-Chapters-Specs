@@ -192,7 +192,7 @@ A `Chapter` with a `ChapterSegmentUID` is also called `Linked Chapter` when the 
 Matroska file/Segment 1: `SegmentUID` 1234567890abcdeffedcba0987654321  
 Matroska file/Segment 2: `SegmentUID` abcdef1234567890fedcba0987654321
 
-Chapters Segment 1    | Start timestamp | End timestamp | ChapterSegmentUID | used Matroska file/Segment
+Segment 1 Chapters    | Start timestamp | End timestamp | ChapterSegmentUID | used Matroska file/Segment
 -----------|-----------------|---------------|-------------------|--------------------
 Chapter 1  |   0   			 |  2000000000   | empty			 | 1
 Chapter 2  |   4000000000    |  6000000000 	 | abcdef1234567890fedcba0987654321 | 2
@@ -491,11 +491,11 @@ In this example an (existing) album is split into different chapters, and one of
 </Chapters>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5NzQ2MTYzLC0xMjEzNDUyMTcyLC0xOD
-c2MTI3OTY2LC01NjI3NTAzNTIsNjg0OTU1NzAsMTQ5MDA4NTkz
-OCwtMjk3MDU1NTU3LDg0MDk1MzkxNCwtMjk3MDU1NTU3LDEyND
-AwNDM4NjAsLTk4NzMyNjEyNCwtMTA0MDUzMTM1NywtNzM3NDA4
-MjUzLDExODMwMTI1NjEsLTE2NDg4NDc5MTYsMTUxNzQzMTk0Ny
-wxNTc3MjQ0NDUzLDk1ODUzNjA0NiwtNzE0MTY3NTg2LC0xMzc3
-MTY0NDg3XX0=
+eyJoaXN0b3J5IjpbLTEwMjM2MzIzODksLTEyMTM0NTIxNzIsLT
+E4NzYxMjc5NjYsLTU2Mjc1MDM1Miw2ODQ5NTU3MCwxNDkwMDg1
+OTM4LC0yOTcwNTU1NTcsODQwOTUzOTE0LC0yOTcwNTU1NTcsMT
+I0MDA0Mzg2MCwtOTg3MzI2MTI0LC0xMDQwNTMxMzU3LC03Mzc0
+MDgyNTMsMTE4MzAxMjU2MSwtMTY0ODg0NzkxNiwxNTE3NDMxOT
+Q3LDE1NzcyNDQ0NTMsOTU4NTM2MDQ2LC03MTQxNjc1ODYsLTEz
+NzcxNjQ0ODddfQ==
 -->
