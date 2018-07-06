@@ -189,8 +189,9 @@ Chapter 2                | false  		     | no
 The `ChapterSegmentUID` element SHOULD be used only with `Ordered Chapters`.
 A `Chapter` with a `ChapterSegmentUID` is also called `Linked Chapter` when the `SegmentUID` value is from another Matroska file/Segment which is stored in the same folder.
 
-Matroska file/Segment 1: `SegmentUID` 1234567890abcdef
-Chapter    | Start timestamp | End timestamp | Duration
+Matroska file/Segment 1: `SegmentUID` 1234567890abcdeffedcba0987654321
+Matroska file/Segment 2: `SegmentUID` abcdef1234567890fedcba0987654321
+Chapter    | Start timestamp | End timestamp | Duration |
 -----------|-----------------|---------------|------
 Chapter 1  |   0   			 |  1000000000   | 1000000000
 Chapter 2  |   1000000000    |  5000000000 	 | 4000000000
@@ -490,7 +491,7 @@ In this example an (existing) album is split into different chapters, and one of
 </Chapters>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyMDE4NTcxNSwtNTYyNzUwMzUyLDY4ND
+eyJoaXN0b3J5IjpbLTY0MDI4NTI0NCwtNTYyNzUwMzUyLDY4ND
 k1NTcwLDE0OTAwODU5MzgsLTI5NzA1NTU1Nyw4NDA5NTM5MTQs
 LTI5NzA1NTU1NywxMjQwMDQzODYwLC05ODczMjYxMjQsLTEwND
 A1MzEzNTcsLTczNzQwODI1MywxMTgzMDEyNTYxLC0xNjQ4ODQ3
