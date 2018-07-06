@@ -194,7 +194,7 @@ Matroska file/Segment 2: `SegmentUID` abcdef1234567890fedcba0987654321
 
 Segment 1 Chapters | ChapterSegmentUID | used Matroska file/Segment
 -------------------|-------------------|---------------
-Chapter 1  		   | empty			   | Segment 1
+Chapter 1  		   | not present			   | Segment 1
 Chapter 2  		   | abcdef1234567890fedcba0987654321 | Segment 2
 Chapter 3  		   | 1234567890abcdeffedcba0987654321 | Segment 1
 
@@ -491,11 +491,11 @@ In this example an (existing) album is split into different chapters, and one of
 </Chapters>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3MjE0NzU2MCwtMTIxMzQ1MjE3MiwtMT
-g3NjEyNzk2NiwtNTYyNzUwMzUyLDY4NDk1NTcwLDE0OTAwODU5
-MzgsLTI5NzA1NTU1Nyw4NDA5NTM5MTQsLTI5NzA1NTU1NywxMj
-QwMDQzODYwLC05ODczMjYxMjQsLTEwNDA1MzEzNTcsLTczNzQw
-ODI1MywxMTgzMDEyNTYxLC0xNjQ4ODQ3OTE2LDE1MTc0MzE5ND
-csMTU3NzI0NDQ1Myw5NTg1MzYwNDYsLTcxNDE2NzU4NiwtMTM3
-NzE2NDQ4N119
+eyJoaXN0b3J5IjpbLTE0MDcwMTk3NTMsLTM3MjE0NzU2MCwtMT
+IxMzQ1MjE3MiwtMTg3NjEyNzk2NiwtNTYyNzUwMzUyLDY4NDk1
+NTcwLDE0OTAwODU5MzgsLTI5NzA1NTU1Nyw4NDA5NTM5MTQsLT
+I5NzA1NTU1NywxMjQwMDQzODYwLC05ODczMjYxMjQsLTEwNDA1
+MzEzNTcsLTczNzQwODI1MywxMTgzMDEyNTYxLC0xNjQ4ODQ3OT
+E2LDE1MTc0MzE5NDcsMTU3NzI0NDQ1Myw5NTg1MzYwNDYsLTcx
+NDE2NzU4Nl19
 -->
