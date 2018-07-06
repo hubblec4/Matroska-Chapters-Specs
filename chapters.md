@@ -194,9 +194,9 @@ Matroska file/Segment 2: `SegmentUID` abcdef1234567890fedcba0987654321
 
 Segment 1 Chapters    | Start timestamp | End timestamp | ChapterSegmentUID | used Matroska file/Segment
 -----------|-----------------|---------------|-------------------|--------------------
-Chapter 1  |   0   			 |  2000000000   | empty			 | 1
-Chapter 2  |   4000000000    |  6000000000 	 | abcdef1234567890fedcba0987654321 | 2
-Chapter 3  |   2000000000    |  4000000000   | 1234567890abcdeffedcba0987654321 | 1
+Chapter 1  | empty			 | 1
+Chapter 2  | abcdef1234567890fedcba0987654321 | 2
+Chapter 3  | 1234567890abcdeffedcba0987654321 | 1
 
 
 
@@ -491,11 +491,11 @@ In this example an (existing) album is split into different chapters, and one of
 </Chapters>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjM2MzIzODksLTEyMTM0NTIxNzIsLT
-E4NzYxMjc5NjYsLTU2Mjc1MDM1Miw2ODQ5NTU3MCwxNDkwMDg1
-OTM4LC0yOTcwNTU1NTcsODQwOTUzOTE0LC0yOTcwNTU1NTcsMT
-I0MDA0Mzg2MCwtOTg3MzI2MTI0LC0xMDQwNTMxMzU3LC03Mzc0
-MDgyNTMsMTE4MzAxMjU2MSwtMTY0ODg0NzkxNiwxNTE3NDMxOT
-Q3LDE1NzcyNDQ0NTMsOTU4NTM2MDQ2LC03MTQxNjc1ODYsLTEz
-NzcxNjQ0ODddfQ==
+eyJoaXN0b3J5IjpbMTc4MzkzMzYxNSwtMTIxMzQ1MjE3MiwtMT
+g3NjEyNzk2NiwtNTYyNzUwMzUyLDY4NDk1NTcwLDE0OTAwODU5
+MzgsLTI5NzA1NTU1Nyw4NDA5NTM5MTQsLTI5NzA1NTU1NywxMj
+QwMDQzODYwLC05ODczMjYxMjQsLTEwNDA1MzEzNTcsLTczNzQw
+ODI1MywxMTgzMDEyNTYxLC0xNjQ4ODQ3OTE2LDE1MTc0MzE5ND
+csMTU3NzI0NDQ1Myw5NTg1MzYwNDYsLTcxNDE2NzU4NiwtMTM3
+NzE2NDQ4N119
 -->
