@@ -184,6 +184,8 @@ Chapter 2                | false  		     | no
 ++Nested Chapter 2.2.1   | true      		 | no
 ++Nested Chapter 2.2.2   | false      		 | no
 
+## ChapterSegmentUID
+
 
 
 ## Menu features
@@ -477,11 +479,11 @@ In this example an (existing) album is split into different chapters, and one of
 </Chapters>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0MDA0Mzg2MCwtOTg3MzI2MTI0LC0xMD
-QwNTMxMzU3LC03Mzc0MDgyNTMsMTE4MzAxMjU2MSwtMTY0ODg0
-NzkxNiwxNTE3NDMxOTQ3LDE1NzcyNDQ0NTMsOTU4NTM2MDQ2LC
-03MTQxNjc1ODYsLTEzNzcxNjQ0ODcsLTE3OTUxMjUwMzcsLTg3
-NzE5OTc0NSwxMTQ1NTcyNjkzLC02MzE1NjkxNTksODQxODI0OD
-Q1LC01OTYzOTQ0MTksMTIxMTYyNTAxNCw0MzQ4NTE5NDMsLTEy
-ODk1MTkwMDFdfQ==
+eyJoaXN0b3J5IjpbLTExOTAxODY3NDYsMTI0MDA0Mzg2MCwtOT
+g3MzI2MTI0LC0xMDQwNTMxMzU3LC03Mzc0MDgyNTMsMTE4MzAx
+MjU2MSwtMTY0ODg0NzkxNiwxNTE3NDMxOTQ3LDE1NzcyNDQ0NT
+MsOTU4NTM2MDQ2LC03MTQxNjc1ODYsLTEzNzcxNjQ0ODcsLTE3
+OTUxMjUwMzcsLTg3NzE5OTc0NSwxMTQ1NTcyNjkzLC02MzE1Nj
+kxNTksODQxODI0ODQ1LC01OTYzOTQ0MTksMTIxMTYyNTAxNCw0
+MzQ4NTE5NDNdfQ==
 -->
