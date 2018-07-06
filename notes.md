@@ -241,3 +241,6 @@ When playing back a track using the `TrackTimestampScale`, if the track is being
 It would be possible for a `Matroska Player` to also adjust the audio's samplerate at the same time as adjusting the timestamps if you wanted to play the two audio streams synchronously. It would also be possible to adjust the video to match the audio's speed. However, for playback, the selected track(s) timestamps SHOULD be adjusted if they need to be scaled.
 
 While the above example deals specifically with audio tracks, this element can be used to align video, audio, subtitles, or any other type of track contained in a Matroska file.
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTYyOTA4MTY3Nl19
+-->
