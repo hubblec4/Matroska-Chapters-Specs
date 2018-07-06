@@ -116,7 +116,7 @@ file name   | `SegmentUID`                       | `PrevUID`                    
 `middle.mkv`| `a77b3598941cb803eac0fcdafe44fac9` | `71000c23cd31099853fbc94dd984a5dd` | n/a
 `end.mkv`   | `6c92285fa6d3e827b198d120ea3ac674` | `a77b3598941cb803eac0fcdafe44fac9` | n/a
 
-In this example uses the ``
+In this example only the `middle.mkv` is using the `NextUID Element` and `NextUID Element`
 
 
 
@@ -262,6 +262,6 @@ It would be possible for a `Matroska Player` to also adjust the audio's samplera
 
 While the above example deals specifically with audio tracks, this element can be used to align video, audio, subtitles, or any other type of track contained in a Matroska file.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzI4NzQxNDYsLTczMDU5ODI4MywxMT
+eyJoaXN0b3J5IjpbLTE2ODgzMTE2ODksLTczMDU5ODI4MywxMT
 c3NzUwNDY4LDYzNTE5NDkwNiwtNjI5MDgxNjc2XX0=
 -->
