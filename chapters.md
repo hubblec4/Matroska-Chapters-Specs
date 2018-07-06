@@ -187,7 +187,9 @@ Chapter 2                | false  		     | no
 ## ChapterSegmentUID
 
 The `ChapterSegmentUID` element SHOULD be used only with `Ordered Chapters`.
-A `Chapter` with a 
+A `Chapter` with a `ChapterSegmentUID` is also called `Linked Chapter`.
+
+
 
 ## Menu features
 
@@ -480,11 +482,11 @@ In this example an (existing) album is split into different chapters, and one of
 </Chapters>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzA1MjIyMjYwLC0yOTcwNTU1NTcsODQwOT
-UzOTE0LC0yOTcwNTU1NTcsMTI0MDA0Mzg2MCwtOTg3MzI2MTI0
-LC0xMDQwNTMxMzU3LC03Mzc0MDgyNTMsMTE4MzAxMjU2MSwtMT
-Y0ODg0NzkxNiwxNTE3NDMxOTQ3LDE1NzcyNDQ0NTMsOTU4NTM2
-MDQ2LC03MTQxNjc1ODYsLTEzNzcxNjQ0ODcsLTE3OTUxMjUwMz
-csLTg3NzE5OTc0NSwxMTQ1NTcyNjkzLC02MzE1NjkxNTksODQx
-ODI0ODQ1XX0=
+eyJoaXN0b3J5IjpbMTQ5MDA4NTkzOCwtMjk3MDU1NTU3LDg0MD
+k1MzkxNCwtMjk3MDU1NTU3LDEyNDAwNDM4NjAsLTk4NzMyNjEy
+NCwtMTA0MDUzMTM1NywtNzM3NDA4MjUzLDExODMwMTI1NjEsLT
+E2NDg4NDc5MTYsMTUxNzQzMTk0NywxNTc3MjQ0NDUzLDk1ODUz
+NjA0NiwtNzE0MTY3NTg2LC0xMzc3MTY0NDg3LC0xNzk1MTI1MD
+M3LC04NzcxOTk3NDUsMTE0NTU3MjY5MywtNjMxNTY5MTU5LDg0
+MTgyNDg0NV19
 -->
