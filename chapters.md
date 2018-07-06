@@ -198,6 +198,9 @@ Chapter 1  		   | absent			   | Segment 1
 Chapter 2  		   | abcdef1234567890fedcba0987654321 | Segment 2
 Chapter 3  		   | 1234567890abcdeffedcba0987654321 | Segment 1
 
+### ChapterSegmentEditionUID
+
+This element is useless and never used anywhere.
 
 
 ## Menu features
@@ -491,11 +494,11 @@ In this example an (existing) album is split into different chapters, and one of
 </Chapters>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwNjE4NTgxNSwtOTQzNzE1MDQ4LC0zNz
-IxNDc1NjAsLTEyMTM0NTIxNzIsLTE4NzYxMjc5NjYsLTU2Mjc1
-MDM1Miw2ODQ5NTU3MCwxNDkwMDg1OTM4LC0yOTcwNTU1NTcsOD
-QwOTUzOTE0LC0yOTcwNTU1NTcsMTI0MDA0Mzg2MCwtOTg3MzI2
-MTI0LC0xMDQwNTMxMzU3LC03Mzc0MDgyNTMsMTE4MzAxMjU2MS
-wtMTY0ODg0NzkxNiwxNTE3NDMxOTQ3LDE1NzcyNDQ0NTMsOTU4
-NTM2MDQ2XX0=
+eyJoaXN0b3J5IjpbLTE3NTEyODA0MDEsMTAwNjE4NTgxNSwtOT
+QzNzE1MDQ4LC0zNzIxNDc1NjAsLTEyMTM0NTIxNzIsLTE4NzYx
+Mjc5NjYsLTU2Mjc1MDM1Miw2ODQ5NTU3MCwxNDkwMDg1OTM4LC
+0yOTcwNTU1NTcsODQwOTUzOTE0LC0yOTcwNTU1NTcsMTI0MDA0
+Mzg2MCwtOTg3MzI2MTI0LC0xMDQwNTMxMzU3LC03Mzc0MDgyNT
+MsMTE4MzAxMjU2MSwtMTY0ODg0NzkxNiwxNTE3NDMxOTQ3LDE1
+NzcyNDQ0NTNdfQ==
 -->
