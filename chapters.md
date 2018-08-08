@@ -1,3 +1,6 @@
+---
+---
+
 # Chapters
 
 The Matroska Chapters system can consist of `Simple Chapters` where a chapter start time is used as marker in the timeline only. The system can be more complex with `Ordered Chapters` where a chapter end time stamp is additionally used or much more complex with `Linked Chapters`. The Matroska Chapters system can also have a menu structure, borrowed from the DVD menu system, or have it's own Native Matroska menu structure.
@@ -5,7 +8,7 @@ The Matroska Chapters system can consist of `Simple Chapters` where a chapter st
 ## EditionEntry
 
 The `EditionEntry` is also called an `Edition`.  
-An `Edition` is a set of `ChapterAtoms` and there MUST be at least one `ChapterAtom`.  
+An `Edition` contains a set of `Edition Flags` and MUST contain at least one `ChapterAtom Element`.  
 Multiple `Editions` are allowed.
 
 ### EditionUID
@@ -20,8 +23,8 @@ All `ChapterAtoms Elements` MUST be interpreted of their own `ChapterFlagHidden 
 
 ChapterAtom / ChapterFlagHidden | False | True | visible
 --------------------------------|-------|------|--------
-Chapter 1                       |   X   |  		 |  yes
-Chapter 2                       |       |  X	 |  no
+Chapter 1                       |   X   |      | yes
+Chapter 2                       |       | X    | no
 
 When the `EditionFlagHidden Flag` is set to `true` the `Edition` is hidden and SHOULD not be selectablly in a `Matroska Player`.
 It exists one case where a hidden `Edition` MUST be played:  
@@ -30,50 +33,52 @@ In this case all `ChapterAtoms Elements` MUST also be interpreted as if their `C
 
 ChapterAtom / ChapterFlagHidden | False | True | visible
 --------------------------------|-------|------|--------
-Chapter 1                       |   X   |  		 |  no
-Chapter 2                       |       |  X	 |  no
+Chapter 1                       |   X   |      | no
+Chapter 2                       |       | X    | no
 
 ### EditionFlagDefault
 
 It is RECOMMENDED that no more than one `Edition` have an `EditionFlagDefault Flag` set to `true`. The first `Edition` with both the `EditionFlagDefault Flag` set to `true` and the `EditionFlagHidden Flag` set to `false` is the `Default Edition`.
 
-Edition   | FlagHidden | FlagDefault | Edition have to play
-----------|------------|-------------|---------------------
-Edition 1 | true       | true        |  
-Edition 2 | true       | true	       |  
-Edition 3 | false      | true	       | X
+Edition   | FlagHidden | FlagDefault | Edition to play
+----------|------------|-------------|----------------
+Edition 1 | true       | true        |
+Edition 2 | true       | true        |
+Edition 3 | false      | true        | X
 
 If the `Default Edition's` `EditionFlagHidden Flag` is set to `true`, then a `Matroska Player` SHOULD play this `Edition` only if all other `Edition` `EditionFlagHidden Flags` are set to `true`. 
 
-Edition   | FlagHidden | FlagDefault | Edition have to play
-----------|------------|-------------|---------------------
-Edition 1 | true       | false	     |  
-Edition 2 | true       | true	       | X
-Edition 3 | true       | false	     |  
+Edition   | FlagHidden | FlagDefault | Edition to play
+----------|------------|-------------|----------------
+Edition 1 | true       | false       |
+Edition 2 | true       | true        | X
+Edition 3 | true       | false       |
 
 Exists an `Edition`  with `EditionFlagHidden Flag` set to `false`, the `Matroska Player` MUST play this `Edition`.
 
-Edition   | FlagHidden | FlagDefault | Edition have to play
-----------|------------|-------------|---------------------
-Edition 1 | true       | false	     |  
-Edition 2 | true       | true	       |  
-Edition 3 | false      | false	     | X
+Edition   | FlagHidden | FlagDefault | Edition to play
+----------|------------|-------------|----------------
+Edition 1 | true       | false       |
+Edition 2 | true       | true        |
+Edition 3 | false      | false       | X
+
 
 If no `Default Edition` is specified a `Matroska Player` MUST play the first `Edition` with the `EditionFlagHidden Flag` is set to `false`. 
 
-Edition   | FlagHidden | FlagDefault | Edition have to play
-----------|------------|-------------|---------------------
-Edition 1 | true       | false	     |  
-Edition 2 | false      | false	     | X
-Edition 3 | false      | false	     |  
+Edition   | FlagHidden | FlagDefault | Edition to play
+----------|------------|-------------|----------------
+Edition 1 | true       | false       |
+Edition 2 | false      | false       | X
+Edition 3 | false      | false       |
+
 
 When all `EditionFlagHidden Flags` are set to `true`, then the first `Edition` MUST be played by the `Matroska Player`.
 
-Edition   | FlagHidden | FlagDefault | Edition have to play
-----------|------------|-------------|---------------------
-Edition 1 | true       | false	     | X
-Edition 2 | true       | false	     |  
-Edition 3 | true       | false	     |  
+Edition   | FlagHidden | FlagDefault | Edition to play
+----------|------------|-------------|----------------
+Edition 1 | true       | false       | X
+Edition 2 | true       | false       |
+Edition 3 | true       | false       |
 
 ### EditionFlagOrdered
 
@@ -110,11 +115,11 @@ These other `Elements` belong to the Matroska DVD menu system and are only used 
 
 #### Ordered-Edition and Matroska Segment-Linking
 
-- Hard Linking: `Ordered-Chapters` supersedes the `Hard Linking`.
+- Hard Linking: `Ordered Chapters` supersedes the `Hard Linking`.
 - Soft Linking: In this complex system `Ordered Chapters` are REQUIRED and a `Chapter CODEC` MUST interpret the `ChapProcess` of all chapters.
 - Medium Linking: `Ordered Chapters` are used in a normal way and can be combined with the `ChapterSegmentUID` element which establishes a link to another Matroska file/Segment.
 
-See [the section on the `Linked Segments`](#linked-segments) for more information about `Hard Linking`, `Soft Linking` and `Medium Linking`.
+See [the section on the `Linked Segments`](notes.md/#linked-segments) for more information about `Hard Linking`, `Soft Linking` and `Medium Linking`.
 
 ## ChapterAtom
 The `ChapterAtom` is also called a `Chapter`.
@@ -140,8 +145,8 @@ The end timestamp MUST be greater than the start timestamp otherwise the duratio
 
 Chapter   | Start timestamp | End timestamp | Duration
 ----------|-----------------|---------------|------
-Chapter 1 | 0   			      | 1000000000    | 1000000000
-Chapter 2 | 1000000000      | 5000000000 	  | 4000000000
+Chapter 1 | 0               | 1000000000    | 1000000000
+Chapter 2 | 1000000000      | 5000000000    | 4000000000
 Chapter 3 | 6000000000      | 6000000000    | 0 (chapter not used)
 Chapter 4 | 9000000000      | 8000000000    | -1000000000 (illegal)
 
@@ -150,16 +155,16 @@ In the Matroska menu systems (Native,DVD) is the usage of an end timestamp depen
 ### ChapterFlagHidden
 
 The `ChapterFlagHidden Flag` works a bit different as the `EditionFlagHidden Flag`. Each `Chapters ChapterFlagHidden Flag` works independent.  
-A `Nested Chapter` remains visible even if the `Parent Chapter ChapterFlagHidden Flag` is set to true.
+A `Nested Chapter` with `ChapterFlagHidden Flag` set to false remains visible even if the `Parent Chapter ChapterFlagHidden Flag` is set to true.
 
 Chapter + Nested Chapter | ChapterFlagHidden | visible
 -------------------------|-------------------|--------
-Chapter 1                | false 		         | yes
-+Nested Chapter 1.1      | false      		   | yes
-+Nested Chapter 1.2      | true      		     | no
-Chapter 2                | true				       | no
-+Nested Chapter 2.1      | false      		   | yes
-+Nested Chapter 2.2      | true      		     | no
+Chapter 1                | false             | yes
++Nested Chapter 1.1      | false             | yes
++Nested Chapter 1.2      | true              | no
+Chapter 2                | true              | no
++Nested Chapter 2.1      | false             | yes
++Nested Chapter 2.2      | true              | no
 
 ### ChapterFlagEnabled
 
@@ -173,35 +178,16 @@ For `Ordered Chapters` a `Matroska Player` MUST not use the duration(and other i
 
 Chapter + Nested Chapter | ChapterFlagEnabled | used
 -------------------------|--------------------|-----
-Chapter 1                | true 		          | yes
-+Nested Chapter 1.1      | true      		      | yes
-+Nested Chapter 1.2      | false      		    | no
-++Nested Chapter 1.2.1   | true      		      | no
-++Nested Chapter 1.2.2   | false      		    | no
-Chapter 2                | false  		        | no
-+Nested Chapter 2.1      | true      		      | no
-+Nested Chapter 2.2      | true      		      | no
-++Nested Chapter 2.2.1   | true      		      | no
-++Nested Chapter 2.2.2   | false      		    | no
-
-## ChapterSegmentUID
-
-The `ChapterSegmentUID` element can be used only with `Ordered Chapters`.
-A `Chapter` with a `ChapterSegmentUID` element is also called `Linked Chapter` when the `SegmentUID` value is from another Matroska file/Segment which is stored in the same folder.
-
-Matroska file/Segment 1: `SegmentUID` 1234567890abcdeffedcba0987654321  
-Matroska file/Segment 2: `SegmentUID` abcdef1234567890fedcba0987654321
-
-Segment 1 Chapters | ChapterSegmentUID                | used Matroska file/Segment
--------------------|----------------------------------|---------------------------
-Chapter 1  		     | absent			                      | Segment 1
-Chapter 2  		     | abcdef1234567890fedcba0987654321 | Segment 2
-Chapter 3  		     | 1234567890abcdeffedcba0987654321 | Segment 1
-
-### ChapterSegmentEditionUID
-
-This element is useless and never used anywhere.
-
+Chapter 1                | true               | yes
++Nested Chapter 1.1      | true               | yes
++Nested Chapter 1.2      | false              | no
+++Nested Chapter 1.2.1   | true               | no
+++Nested Chapter 1.2.2   | false              | no
+Chapter 2                | false              | no
++Nested Chapter 2.1      | true               | no
++Nested Chapter 2.2      | true               | no
+++Nested Chapter 2.2.1   | true               | no
+++Nested Chapter 2.2.2   | false              | no
 
 ## Menu features
 
@@ -493,15 +479,3 @@ In this example an (existing) album is split into different chapters, and one of
   </EditionEntry>
 </Chapters>
 ```
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTEyODA0MDEsMTAwNjE4NTgxNSwtOT
-QzNzE1MDQ4LC0zNzIxNDc1NjAsLTEyMTM0NTIxNzIsLTE4NzYx
-Mjc5NjYsLTU2Mjc1MDM1Miw2ODQ5NTU3MCwxNDkwMDg1OTM4LC
-0yOTcwNTU1NTcsODQwOTUzOTE0LC0yOTcwNTU1NTcsMTI0MDA0
-Mzg2MCwtOTg3MzI2MTI0LC0xMDQwNTMxMzU3LC03Mzc0MDgyNT
-MsMTE4MzAxMjU2MSwtMTY0ODg0NzkxNiwxNTE3NDMxOTQ3LDE1
-NzcyNDQ0NTNdfQ==
--->
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbNzcwNjUzMjA3XX0=
--->
