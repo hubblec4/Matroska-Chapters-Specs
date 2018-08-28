@@ -479,3 +479,6 @@ In this example an (existing) album is split into different chapters, and one of
   </EditionEntry>
 </Chapters>
 ```
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTE1MjgxMjU4NzFdfQ==
+-->
