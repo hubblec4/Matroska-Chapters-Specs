@@ -480,5 +480,5 @@ In this example an (existing) album is split into different chapters, and one of
 </Chapters>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MjgxMjU4NzFdfQ==
+eyJoaXN0b3J5IjpbNTY3OTEzMjg3LC0xNTI4MTI1ODcxXX0=
 -->
