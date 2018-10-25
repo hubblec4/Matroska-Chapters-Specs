@@ -191,13 +191,15 @@ Chapter 2                | false              | no
 
 ### ChapterSegmentUID
 
-The `ChapterSegmentUID` is a binary value with a size of 128 bits and the base element to set up a `Linked Chapter` in 2 variations. For both variations the following 3 conditions MUST met.
+The `ChapterSegmentUID` is a binary value with a size of 128 bits and the base element to set up a `Linked Chapter` in 2 variations. For both variations the following 3 conditions MUST be met.
 
  1. The `EditionFlagOrdered Flag` is set to true
  2. The `ChapterSegmentUID` is not the own `SegmentUID`
  3. The linked Matroska file/Segment is in the same folder
 
 #####  Variation 1: Linked-Duration
+
+Two more conditions MUST be met.
 
 `ChapterTimeStart` and `ChapterTimeEnd` timestamps MUST be in the range of the linked Matroska file/Segment duration
 
@@ -498,9 +500,9 @@ In this example an (existing) album is split into different chapters, and one of
 </Chapters>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjgzMzM2NzI2LC05NDE4MjI3MDgsLTEwMj
-A3ODQ5NzEsLTExMDQ4ODYzLC0yNDkyNzMzNDcsMTk4NTkwNjI1
-MiwtMjMxMjIyMTA3LDQ5NzYxMzQ1Myw0NDA1MDUwNSwtMjU5Mj
-U3NDc1LDcxMTY4NDA4OSwtMTk4MTE0ODYwMCw1Njc5MTMyODcs
-LTE1MjgxMjU4NzFdfQ==
+eyJoaXN0b3J5IjpbNjE3NDI3NzAwLDI4MzMzNjcyNiwtOTQxOD
+IyNzA4LC0xMDIwNzg0OTcxLC0xMTA0ODg2MywtMjQ5MjczMzQ3
+LDE5ODU5MDYyNTIsLTIzMTIyMjEwNyw0OTc2MTM0NTMsNDQwNT
+A1MDUsLTI1OTI1NzQ3NSw3MTE2ODQwODksLTE5ODExNDg2MDAs
+NTY3OTEzMjg3LC0xNTI4MTI1ODcxXX0=
 -->
