@@ -193,6 +193,7 @@ Chapter 2                | false              | no
 
 The `ChapterSegmentUID` is a binary value with a size of 128 bits.
 With the `ChapterSegmentUID` you can set up a `Linked Chapter` if the following 4 conditions are met.
+The `ChapterSegmentUID` element
 
  1. The `EditionFlagOrdered Flag` is set to true
  2. The `ChapterSegmentUID` is not the own `SegmentUID`
@@ -496,8 +497,8 @@ In this example an (existing) album is split into different chapters, and one of
 </Chapters>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDQ4ODYzLC0yNDkyNzMzNDcsMTk4NT
-kwNjI1MiwtMjMxMjIyMTA3LDQ5NzYxMzQ1Myw0NDA1MDUwNSwt
-MjU5MjU3NDc1LDcxMTY4NDA4OSwtMTk4MTE0ODYwMCw1Njc5MT
-MyODcsLTE1MjgxMjU4NzFdfQ==
+eyJoaXN0b3J5IjpbOTAzMDUyNzI2LC0xMTA0ODg2MywtMjQ5Mj
+czMzQ3LDE5ODU5MDYyNTIsLTIzMTIyMjEwNyw0OTc2MTM0NTMs
+NDQwNTA1MDUsLTI1OTI1NzQ3NSw3MTE2ODQwODksLTE5ODExND
+g2MDAsNTY3OTEzMjg3LC0xNTI4MTI1ODcxXX0=
 -->
