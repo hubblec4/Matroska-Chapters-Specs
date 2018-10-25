@@ -201,6 +201,8 @@ With the `ChapterSegmentUID` you can set up a `Linked Chapter` if the following 
 
 A `Matroska Player` MUST play the content of the linked Matroska file/Segment from the `ChapterTimeStart` until `ChapterTimeEnd` timestamp.
 
+### ChapterSegmentEditionUID
+
 ## Menu features
 
 The menu features are handled like a _chapter codec_. That means each codec has a type, some private data and some data in the chapters.
@@ -492,7 +494,7 @@ In this example an (existing) album is split into different chapters, and one of
 </Chapters>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzMTIyMjEwNyw0OTc2MTM0NTMsNDQwNT
-A1MDUsLTI1OTI1NzQ3NSw3MTE2ODQwODksLTE5ODExNDg2MDAs
-NTY3OTEzMjg3LC0xNTI4MTI1ODcxXX0=
+eyJoaXN0b3J5IjpbMTk4NTkwNjI1MiwtMjMxMjIyMTA3LDQ5Nz
+YxMzQ1Myw0NDA1MDUwNSwtMjU5MjU3NDc1LDcxMTY4NDA4OSwt
+MTk4MTE0ODYwMCw1Njc5MTMyODcsLTE1MjgxMjU4NzFdfQ==
 -->
