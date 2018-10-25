@@ -206,6 +206,10 @@ Two more conditions MUST be met.
 
 A `Matroska Player` MUST play the content of the linked Matroska file/Segment from the `ChapterTimeStart` until `ChapterTimeEnd` timestamp.
 
+#####  Variation 2: Linked-Edition
+
+
+
 ### ChapterSegmentEditionUID
 
 The `ChapterSegmentEditionUID` is the UID of an `Edition` from the linked Matroska file/Segment specified in `ChapterSegmentUID` element. A `Matroska Player` MUST play these `Edition`
@@ -501,10 +505,10 @@ In this example an (existing) album is split into different chapters, and one of
 </Chapters>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjgwNDcwNjgsLTE5MTEwODI5MTcsMj
-gzMzM2NzI2LC05NDE4MjI3MDgsLTEwMjA3ODQ5NzEsLTExMDQ4
-ODYzLC0yNDkyNzMzNDcsMTk4NTkwNjI1MiwtMjMxMjIyMTA3LD
-Q5NzYxMzQ1Myw0NDA1MDUwNSwtMjU5MjU3NDc1LDcxMTY4NDA4
-OSwtMTk4MTE0ODYwMCw1Njc5MTMyODcsLTE1MjgxMjU4NzFdfQ
-==
+eyJoaXN0b3J5IjpbLTE2MjQ1NTg1NjIsLTEwMjgwNDcwNjgsLT
+E5MTEwODI5MTcsMjgzMzM2NzI2LC05NDE4MjI3MDgsLTEwMjA3
+ODQ5NzEsLTExMDQ4ODYzLC0yNDkyNzMzNDcsMTk4NTkwNjI1Mi
+wtMjMxMjIyMTA3LDQ5NzYxMzQ1Myw0NDA1MDUwNSwtMjU5MjU3
+NDc1LDcxMTY4NDA4OSwtMTk4MTE0ODYwMCw1Njc5MTMyODcsLT
+E1MjgxMjU4NzFdfQ==
 -->
