@@ -203,6 +203,8 @@ A `Matroska Player` MUST play the content of the linked Matroska file/Segment fr
 
 ### ChapterSegmentEditionUID
 
+The `ChapterSegmentEditionUID` is the UID of an `Edition` from the linked Matroska file/Segment 
+
 ## Menu features
 
 The menu features are handled like a _chapter codec_. That means each codec has a type, some private data and some data in the chapters.
@@ -494,7 +496,8 @@ In this example an (existing) album is split into different chapters, and one of
 </Chapters>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4NTkwNjI1MiwtMjMxMjIyMTA3LDQ5Nz
-YxMzQ1Myw0NDA1MDUwNSwtMjU5MjU3NDc1LDcxMTY4NDA4OSwt
-MTk4MTE0ODYwMCw1Njc5MTMyODcsLTE1MjgxMjU4NzFdfQ==
+eyJoaXN0b3J5IjpbLTE0MDYyNDkxNDYsMTk4NTkwNjI1MiwtMj
+MxMjIyMTA3LDQ5NzYxMzQ1Myw0NDA1MDUwNSwtMjU5MjU3NDc1
+LDcxMTY4NDA4OSwtMTk4MTE0ODYwMCw1Njc5MTMyODcsLTE1Mj
+gxMjU4NzFdfQ==
 -->
