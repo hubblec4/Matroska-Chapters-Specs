@@ -203,7 +203,7 @@ A `Matroska Player` MUST play the content of the linked Matroska file/Segment fr
 
 ### ChapterSegmentEditionUID
 
-The `ChapterSegmentEditionUID` is the UID of an `Edition` from the linked Matroska file/Segment specified in `ChapterSegmentUID`
+The `ChapterSegmentEditionUID` is the UID of an `Edition` from the linked Matroska file/Segment specified in `ChapterSegmentUID` element.
 
 ## Menu features
 
@@ -496,8 +496,8 @@ In this example an (existing) album is split into different chapters, and one of
 </Chapters>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1NTYyNTMzLDE5ODU5MDYyNTIsLTIzMT
-IyMjEwNyw0OTc2MTM0NTMsNDQwNTA1MDUsLTI1OTI1NzQ3NSw3
-MTE2ODQwODksLTE5ODExNDg2MDAsNTY3OTEzMjg3LC0xNTI4MT
-I1ODcxXX0=
+eyJoaXN0b3J5IjpbLTI0OTI3MzM0NywxOTg1OTA2MjUyLC0yMz
+EyMjIxMDcsNDk3NjEzNDUzLDQ0MDUwNTA1LC0yNTkyNTc0NzUs
+NzExNjg0MDg5LC0xOTgxMTQ4NjAwLDU2NzkxMzI4NywtMTUyOD
+EyNTg3MV19
 -->
