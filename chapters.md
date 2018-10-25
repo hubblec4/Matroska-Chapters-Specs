@@ -194,7 +194,7 @@ Chapter 2                | false              | no
 The `ChapterSegmentUID` is a binary value with a size of 128 bits.
 With the `ChapterSegmentUID` you can set up a `Linked Chapter` if the following 3 conditions are met.
 
- 1. The `EditionFlagOrdered` is set to true
+ 1. The `EditionFlagOrdered Flag` is set to true
  2. The `ChapterSegmentUID` is not the own `SegmentUID`
  3. The linked Matroska file/Segment is in the same folder
 
@@ -489,6 +489,7 @@ In this example an (existing) album is split into different chapters, and one of
 </Chapters>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI1OTI1NzQ3NSw3MTE2ODQwODksLTE5OD
-ExNDg2MDAsNTY3OTEzMjg3LC0xNTI4MTI1ODcxXX0=
+eyJoaXN0b3J5IjpbNDQwNTA1MDUsLTI1OTI1NzQ3NSw3MTE2OD
+QwODksLTE5ODExNDg2MDAsNTY3OTEzMjg3LC0xNTI4MTI1ODcx
+XX0=
 -->
