@@ -202,7 +202,7 @@ The `ChapterSegmentUID` is a binary value with a size of 128 bits and the base e
 Two more conditions MUST be met.
 
  1. `ChapterTimeStart` and `ChapterTimeEnd` timestamps MUST be in the range of the linked Matroska file/Segment duration
- 2. `ChapterSegmentEditionUID` 
+ 2. `ChapterSegmentEditionUID` MUST be not set
 
 A `Matroska Player` MUST play the content of the linked Matroska file/Segment from the `ChapterTimeStart` until `ChapterTimeEnd` timestamp.
 
@@ -501,9 +501,10 @@ In this example an (existing) album is split into different chapters, and one of
 </Chapters>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTEwODI5MTcsMjgzMzM2NzI2LC05ND
-E4MjI3MDgsLTEwMjA3ODQ5NzEsLTExMDQ4ODYzLC0yNDkyNzMz
-NDcsMTk4NTkwNjI1MiwtMjMxMjIyMTA3LDQ5NzYxMzQ1Myw0ND
-A1MDUwNSwtMjU5MjU3NDc1LDcxMTY4NDA4OSwtMTk4MTE0ODYw
-MCw1Njc5MTMyODcsLTE1MjgxMjU4NzFdfQ==
+eyJoaXN0b3J5IjpbLTEwMjgwNDcwNjgsLTE5MTEwODI5MTcsMj
+gzMzM2NzI2LC05NDE4MjI3MDgsLTEwMjA3ODQ5NzEsLTExMDQ4
+ODYzLC0yNDkyNzMzNDcsMTk4NTkwNjI1MiwtMjMxMjIyMTA3LD
+Q5NzYxMzQ1Myw0NDA1MDUwNSwtMjU5MjU3NDc1LDcxMTY4NDA4
+OSwtMTk4MTE0ODYwMCw1Njc5MTMyODcsLTE1MjgxMjU4NzFdfQ
+==
 -->
