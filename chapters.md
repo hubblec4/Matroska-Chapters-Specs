@@ -191,8 +191,7 @@ Chapter 2                | false              | no
 
 ### ChapterSegmentUID
 
-The `ChapterSegmentUID` is a binary value with a size of 128 bits.
-The `ChapterSegmentUID` element is the base to set up a `Linked Chapter` in 2 variations. For both variations the following 3 conditions MUST met.
+The `ChapterSegmentUID` is a binary value with a size of 128 bits and the base element to set up a `Linked Chapter` in 2 variations. For both variations the following 3 conditions MUST met.
 
  1. The `EditionFlagOrdered Flag` is set to true
  2. The `ChapterSegmentUID` is not the own `SegmentUID`
@@ -499,9 +498,9 @@ In this example an (existing) album is split into different chapters, and one of
 </Chapters>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0MTgyMjcwOCwtMTAyMDc4NDk3MSwtMT
-EwNDg4NjMsLTI0OTI3MzM0NywxOTg1OTA2MjUyLC0yMzEyMjIx
-MDcsNDk3NjEzNDUzLDQ0MDUwNTA1LC0yNTkyNTc0NzUsNzExNj
-g0MDg5LC0xOTgxMTQ4NjAwLDU2NzkxMzI4NywtMTUyODEyNTg3
-MV19
+eyJoaXN0b3J5IjpbMjgzMzM2NzI2LC05NDE4MjI3MDgsLTEwMj
+A3ODQ5NzEsLTExMDQ4ODYzLC0yNDkyNzMzNDcsMTk4NTkwNjI1
+MiwtMjMxMjIyMTA3LDQ5NzYxMzQ1Myw0NDA1MDUwNSwtMjU5Mj
+U3NDc1LDcxMTY4NDA4OSwtMTk4MTE0ODYwMCw1Njc5MTMyODcs
+LTE1MjgxMjU4NzFdfQ==
 -->
