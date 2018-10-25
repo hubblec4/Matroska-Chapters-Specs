@@ -208,7 +208,7 @@ A `Matroska Player` MUST play the content of the linked Matroska file/Segment fr
 
 #####  Variation 2: Linked-Edition
 
-
+Only one more condition MUST be m
 
 ### ChapterSegmentEditionUID
 
@@ -505,10 +505,10 @@ In this example an (existing) album is split into different chapters, and one of
 </Chapters>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjQ1NTg1NjIsLTEwMjgwNDcwNjgsLT
-E5MTEwODI5MTcsMjgzMzM2NzI2LC05NDE4MjI3MDgsLTEwMjA3
-ODQ5NzEsLTExMDQ4ODYzLC0yNDkyNzMzNDcsMTk4NTkwNjI1Mi
-wtMjMxMjIyMTA3LDQ5NzYxMzQ1Myw0NDA1MDUwNSwtMjU5MjU3
-NDc1LDcxMTY4NDA4OSwtMTk4MTE0ODYwMCw1Njc5MTMyODcsLT
-E1MjgxMjU4NzFdfQ==
+eyJoaXN0b3J5IjpbLTEyNDI0OTk3OTksLTE2MjQ1NTg1NjIsLT
+EwMjgwNDcwNjgsLTE5MTEwODI5MTcsMjgzMzM2NzI2LC05NDE4
+MjI3MDgsLTEwMjA3ODQ5NzEsLTExMDQ4ODYzLC0yNDkyNzMzND
+csMTk4NTkwNjI1MiwtMjMxMjIyMTA3LDQ5NzYxMzQ1Myw0NDA1
+MDUwNSwtMjU5MjU3NDc1LDcxMTY4NDA4OSwtMTk4MTE0ODYwMC
+w1Njc5MTMyODcsLTE1MjgxMjU4NzFdfQ==
 -->
