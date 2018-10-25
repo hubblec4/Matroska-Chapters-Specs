@@ -196,6 +196,7 @@ With the `ChapterSegmentUID` you can set up a `Linked Chapter` if the following 
 
  1. The `EditionFlagOrdered` is set to true
  2. The `ChapterSegmentUID` is not the own `SegmentUID`
+ 3. The linked Matroska file/Segment is in the same folder
 
 ## Menu features
 
@@ -488,6 +489,6 @@ In this example an (existing) album is split into different chapters, and one of
 </Chapters>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3NDIwNjA0NSw3MTE2ODQwODksLTE5OD
-ExNDg2MDAsNTY3OTEzMjg3LC0xNTI4MTI1ODcxXX0=
+eyJoaXN0b3J5IjpbNjQ3NDg0Mjg0LDcxMTY4NDA4OSwtMTk4MT
+E0ODYwMCw1Njc5MTMyODcsLTE1MjgxMjU4NzFdfQ==
 -->
