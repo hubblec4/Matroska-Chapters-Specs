@@ -191,7 +191,8 @@ Chapter 2                | false              | no
 
 ### ChapterSegmentUID
 
-The `ChapterSegmentUID` is binary value with a size of 128 bits.
+The `ChapterSegmentUID` is binary value with a size of 128 bits. When the 
+
 ## Menu features
 
 The menu features are handled like a _chapter codec_. That means each codec has a type, some private data and some data in the chapters.
@@ -483,6 +484,6 @@ In this example an (existing) album is split into different chapters, and one of
 </Chapters>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjE4MTg0NTA3LC0xOTgxMTQ4NjAwLDU2Nz
-kxMzI4NywtMTUyODEyNTg3MV19
+eyJoaXN0b3J5IjpbLTM5Mjk4ODIwNCwtMTk4MTE0ODYwMCw1Nj
+c5MTMyODcsLTE1MjgxMjU4NzFdfQ==
 -->
