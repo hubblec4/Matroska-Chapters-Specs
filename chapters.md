@@ -189,6 +189,7 @@ Chapter 2                | false              | no
 ++Nested Chapter 2.2.1   | true               | no
 ++Nested Chapter 2.2.2   | false              | no
 
+### ChapterSegmentUID
 ## Menu features
 
 The menu features are handled like a _chapter codec_. That means each codec has a type, some private data and some data in the chapters.
@@ -480,5 +481,6 @@ In this example an (existing) album is split into different chapters, and one of
 </Chapters>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTY3OTEzMjg3LC0xNTI4MTI1ODcxXX0=
+eyJoaXN0b3J5IjpbLTIwNjExMTM4NzYsNTY3OTEzMjg3LC0xNT
+I4MTI1ODcxXX0=
 -->
