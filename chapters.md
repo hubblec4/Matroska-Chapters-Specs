@@ -197,7 +197,7 @@ The `ChapterSegmentUID` is a binary value with a size of 128 bits and the base e
  2. The `ChapterSegmentUID` is not the own `SegmentUID`
  3. The linked Matroska file/Segment is in the same folder
 
-#####  Variation 1: Linked-Duration
+##### Variation 1: Linked-Duration
 
 Two more conditions MUST be met.
 
@@ -206,7 +206,7 @@ Two more conditions MUST be met.
 
 A `Matroska Player` MUST play the content of the linked Matroska file/Segment from the `ChapterTimeStart` until `ChapterTimeEnd` timestamp.
 
-#####  Variation 2: Linked-Edition
+##### Variation 2: Linked-Edition
 
 Only one more condition MUST be met when the `ChapterSegmentEditionUID` is set with a valid `EditionUID` from the linked Matroska file/Segment.
 A `Matroska Player` MUST play these linked `Edition`.
