@@ -192,7 +192,7 @@ Chapter 2                | false              | no
 ### ChapterSegmentUID
 
 The `ChapterSegmentUID` is binary value with a size of 128 bits.
-
+When the specified SegmentUID 
 
 ## Menu features
 
@@ -485,6 +485,6 @@ In this example an (existing) album is split into different chapters, and one of
 </Chapters>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1Mjk4MjUwNSwtMTk4MTE0ODYwMCw1Nj
-c5MTMyODcsLTE1MjgxMjU4NzFdfQ==
+eyJoaXN0b3J5IjpbNzExNjg0MDg5LC0xOTgxMTQ4NjAwLDU2Nz
+kxMzI4NywtMTUyODEyNTg3MV19
 -->
