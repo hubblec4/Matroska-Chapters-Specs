@@ -199,7 +199,7 @@ With the `ChapterSegmentUID` you can set up a `Linked Chapter` if the following 
  3. The linked Matroska file/Segment is in the same folder
  4. `ChapterTimeStart` and `ChapterTimeEnd` timestamps MUST be in the range of the linked Matroska file/Segment duration
 
-A `Matroska Player` MUST play the content 
+A `Matroska Player` MUST play the content of the linked Matroska file/Segment from the `ChapterTimeStart`
 
 ## Menu features
 
@@ -492,7 +492,7 @@ In this example an (existing) album is split into different chapters, and one of
 </Chapters>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0MTE4MTI0LDQ5NzYxMzQ1Myw0NDA1MD
-UwNSwtMjU5MjU3NDc1LDcxMTY4NDA4OSwtMTk4MTE0ODYwMCw1
-Njc5MTMyODcsLTE1MjgxMjU4NzFdfQ==
+eyJoaXN0b3J5IjpbMTA1NjM1MTYxMiw0OTc2MTM0NTMsNDQwNT
+A1MDUsLTI1OTI1NzQ3NSw3MTE2ODQwODksLTE5ODExNDg2MDAs
+NTY3OTEzMjg3LC0xNTI4MTI1ODcxXX0=
 -->
