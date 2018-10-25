@@ -197,7 +197,7 @@ With the `ChapterSegmentUID` you can set up a `Linked Chapter` if the following 
  1. The `EditionFlagOrdered Flag` is set to true
  2. The `ChapterSegmentUID` is not the own `SegmentUID`
  3. The linked Matroska file/Segment is in the same folder
- 4. `ChapterTimeStart` and `ChapterTimeEnd` timestamps within the linked Matroska file/Segment.
+ 4. `ChapterTimeStart` and `ChapterTimeEnd` timestamps must be in a range of the entire linked Matroska file/Segment duration.
 
 ## Menu features
 
@@ -490,7 +490,7 @@ In this example an (existing) album is split into different chapters, and one of
 </Chapters>
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUwMDMxNTY4OCw0NDA1MDUwNSwtMjU5Mj
-U3NDc1LDcxMTY4NDA4OSwtMTk4MTE0ODYwMCw1Njc5MTMyODcs
-LTE1MjgxMjU4NzFdfQ==
+eyJoaXN0b3J5IjpbLTEwMDA1MzU4NTYsNDQwNTA1MDUsLTI1OT
+I1NzQ3NSw3MTE2ODQwODksLTE5ODExNDg2MDAsNTY3OTEzMjg3
+LC0xNTI4MTI1ODcxXX0=
 -->
